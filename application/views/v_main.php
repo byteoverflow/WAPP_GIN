@@ -65,7 +65,7 @@
 				
 				<div class="12u-first">
 					
-					<div id="featured" align="center" style="margin: 0 auto"> 
+					<div id="featured"> 
      						<img src="<?php echo base_url('assets/orbitSlider/images/image1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
      						<img src="<?php echo base_url('assets/orbitSlider/images/image2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
      						<img src="<?php echo base_url('assets/orbitSlider/images/image3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
