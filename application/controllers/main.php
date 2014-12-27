@@ -13,10 +13,24 @@ class Main extends CI_Controller {
 		$this->load->view('v_main');
 	}
 	
-	public function registerUser(){
+	public function about(){
+		echo "about page";
+	}
 	
-		$this->load->model("m_main");
-		echo $this->m_main->registerUser();	
+	public function join(){
+		echo "join page";
+	}
+	
+	public function faqs(){
+		echo "faqs page";
+	}
+	
+	public function contact(){
+		echo "contact page";
+	}
+	
+	public function login(){
+		echo "login page";
 	}
 	
 

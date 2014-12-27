@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
 
-/*
-	Minimaxing 1.0 by nodethirtythree design
-	http://nodethirtythree.com | @nodethirtythree
-	Released under the Creative Commons Attribution 3.0 license (nodethirtythree.com/license)
-*/
 
 /*********************************************************************************/
 /* Global                                                                        */
@@ -25,7 +20,7 @@
 	}
 
 	h1,h2 {
-		/*text-transform: lowercase;*/
+		text-transform: lowercase;
 	}
 
 	h2 {
@@ -287,14 +282,14 @@
 
 		#banner {
 			position: relative;
-			width: 736px;
-			height: 260px;
+			width: 1160px;
+			height: 265px;
 			margin: 2% 0 2% 0;
 			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
 			border-radius: 10px;
 			padding: 20px;
 			background: #fff url(images/banner.jpg) no-repeat 20px 20px;
-			background-size: 736px 260px;
+			background-size: 1160px 265px;
 		}
 
 			#banner h2 {
