@@ -277,7 +277,7 @@
 				}
 
 		#banner-wrapper {
-			background: #c8d2bc url(images/bg1.png);
+			/*background: #c8d2bc url(images/bg1.png);*/
 		}
 
 		#banner {
@@ -334,6 +334,7 @@
 
 		#footer-wrapper {
 			padding: 3% 0 3% 0;
+			background: #fff url('images/footer.png');
 		}
 
 		#copyright {

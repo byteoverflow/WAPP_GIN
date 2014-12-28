@@ -160,7 +160,7 @@
 		</div>
 		<div id="footer-wrapper">
 			
-			<div align="center">
+			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 Global Information Network Website.
 			</div>
 			
