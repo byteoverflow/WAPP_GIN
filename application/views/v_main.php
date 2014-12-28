@@ -59,24 +59,30 @@
 				</div>
 			</div>
 		</div>
-		<div id="banner-wrapper">
-		
-			<div class="5grid">
-				
-				<div class="12u-first">
-					
-					<div id="featured"> 
-     						<img src="<?php echo base_url('assets/orbitSlider/images/image1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
-     						<img src="<?php echo base_url('assets/orbitSlider/images/image2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
-     						<img src="<?php echo base_url('assets/orbitSlider/images/image3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
-     						<img src="<?php echo base_url('assets/orbitSlider/images/image4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
-					</div>	
-					<!-- Captions for Orbit -->
-					<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
-					<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
-					<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
-					<span class="orbit-caption" id="image4Caption">Image4 Caption</span>
-					
+		<div id="banner-wrapper">		
+			<div class="5grid">				
+				<div class="12u-first">					
+					<!-- <div id="banner"> -->
+						<table>
+							<tr>
+							 <td width="50%"></td>
+							 <td>						 	
+							 	<div id="featured"> 
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/image1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/image2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/image3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/image4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
+								</div>	
+						<!-- Captions for Orbit -->
+								<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
+								<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
+								<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
+								<span class="orbit-caption" id="image4Caption">Image4 Caption</span>						 	
+							 </td>
+							 <td width="50%"></td>							
+							</tr>						
+						</table>
+					<!-- </div> -->
 				</div>
 			</div>
 		</div>
@@ -87,7 +93,7 @@
 						
 						<section>
 							<h2>About the club</h2>
-							<a href="#"><img src="<?php echo base_url('assets/css/images/pic2.jpg'); ?>" alt="" class="left" /></a>
+							<!-- <a href="#"><img src="<?php echo base_url('assets/css/images/pic2.jpg'); ?>" alt="" class="left" /></a> -->
 							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in Janury 2015, 
 								by a group of very successful people. 
 								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
@@ -95,7 +101,7 @@
 								In short, GIN is a very unique success club, unlike any club that has ever been formed before.
 							</p>
 							<footer class="controls">
-								<a href="<?php echo base_url('index.php/main/about') ?>" class="button">Read more ...</a>
+								<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
 							</footer>
 						</section>
 					
@@ -106,7 +112,7 @@
 							<h2>Gin Fun</h2>
 							<ul class="small-image-list">
 								<li>
-									<a href="#"><img src="<?php echo base_url('assets/css/images/pic3.jpg'); ?>" alt="" class="left" /></a>
+									<!-- <a href="#"><img src="<?php echo base_url('assets/css/images/pic3.jpg'); ?>" alt="" class="left" /></a> -->
 									<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
 										Having fun while learning and conducting business is a key part of the success formula in GIN. 
 										One of the side benefits if you will of being a GIN Member is you will make new best friends. 
@@ -130,7 +136,7 @@
 								</ul>
 								
 								<footer class="controls">
-									<a href="<?php echo base_url('index.php/main/faqs') ?>" class="button">Read more ...</a>
+									<a href="<?php echo base_url('index.php/main/faqs') ?>" class="button">more</a>
 								</footer>
 								
 							</div>
