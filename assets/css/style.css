@@ -156,6 +156,14 @@
 		background-image: linear-gradient(top, #1b9fbe, #118eb1);
 		box-shadow: inset 0px 0px 0px 1px #3ecceb;
 	}
+	
+	input {
+   		border: 1px solid #c7c7c7;
+   		-moz-border-radius:6px;
+   		-webkit-border-radius:6px;
+   		border-radius:6px;
+   		
+}
 
 /*********************************************************************************/
 /* 1200px (>= 1200px)                                                            */
