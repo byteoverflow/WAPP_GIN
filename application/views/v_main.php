@@ -42,8 +42,7 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">
-					
+				<div class="12u-first">					
 					<header id="header">
 						<h1>Global Information Network</h1>
 						<nav>
@@ -54,25 +53,21 @@
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
 							<a href="<?php echo base_url('index.php/main/login') ?>">Website Login</a>
 						</nav>
-					</header>
-				
+					</header>				
 				</div>
 			</div>
 		</div>
 		<div id="banner-wrapper">		
-			<div class="5grid">				
-				<div class="12u-first">					
-					<!-- <div id="banner"> -->
-						<table>
+			<table>
 							<tr>
 							 <td width="50%"></td>
 							 <td>						 	
 							 	<div id="featured"> 
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/image1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/image2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/image3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/image4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
-								</div>	
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
+	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
+								</div>
 						<!-- Captions for Orbit -->
 								<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
 								<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
@@ -81,19 +76,15 @@
 							 </td>
 							 <td width="50%"></td>							
 							</tr>						
-						</table>
-					<!-- </div> -->
-				</div>
-			</div>
+						</table>			
 		</div>
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="4u-first">
-						
+					<div class="4u-first">						
 						<section>
 							<h2>About the club</h2>
-							<!-- <a href="#"><img src="<?php echo base_url('assets/css/images/pic2.jpg'); ?>" alt="" class="left" /></a> -->
+							<img src="<?php echo base_url('assets/css/images/about_the_club.png'); ?>" alt="" class="left" />
 							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in Janury 2015, 
 								by a group of very successful people. 
 								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
@@ -110,30 +101,27 @@
 						
 						<section>
 							<h2>Gin Fun</h2>
-							<ul class="small-image-list">
-								<li>
-									<!-- <a href="#"><img src="<?php echo base_url('assets/css/images/pic3.jpg'); ?>" alt="" class="left" /></a> -->
+							
+									<img src="<?php echo base_url('assets/css/images/gin_fun.png'); ?>" alt="" class="left" />
 									<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
 										Having fun while learning and conducting business is a key part of the success formula in GIN. 
 										One of the side benefits if you will of being a GIN Member is you will make new best friends. 
 										Approximately once a quarter, GIN conducts a weekend function, 
 										where 1000s of GIN Members from around the world get together.</p>
-								</li>								
-							</ul>
+							
 						</section>
 					
 					</div>
 					<div class="4u">
 					
 						<section>
-							<h2>FREQUENTLY ASKED QUESTIONS</h2>
-							<div class="6u-first">
-								<ul class="link-list">
-									<li>What is my Invitation Code?</li>
-									<li>How much does it cost to join GIN?</li>
-									<li>What payment types are accepted?</li>
-									<li>Can I join as an Associate and become a Member at a later date?</li>
-								</ul>
+							<h2>MEET OUR FACULTY</h2>
+							<img src="<?php echo base_url('assets/css/images/faculty.png'); ?>" alt="" class="left" />
+							<p>Our GIN Faculty is comprised of the leading experts in their field; speakers from a variety of backgrounds: Authors, professional athletes, successful entrepreneurs, doctors, and professional speakers. 
+							Each of our faculty can be considered an authority.
+							They teach and train within the GIN Membership on many areas: 
+							physical wellness, mental health, wealth creation, investing, Self-improvement and awareness, Business acumen, etiquette, numerology, martial arts, yoga, and so many more.								
+							</p>
 								
 								<footer class="controls">
 									<a href="<?php echo base_url('index.php/main/faqs') ?>" class="button">more</a>

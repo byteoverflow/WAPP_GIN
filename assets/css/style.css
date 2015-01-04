@@ -8,7 +8,7 @@
 	body {
 		font-size: 13.5pt;
 		font-family: sans-serif;
-		background-color: #e3e9dc;
+		background-color: #B3B4BD;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
@@ -277,7 +277,10 @@
 				}
 
 		#banner-wrapper {
-			/*background: #c8d2bc url(images/bg1.png);*/
+			/*background: #c8d2bc url(images/bg1.png);
+			background-size:   cover;                     
+    		background-repeat: no-repeat;
+    		background-position: center center; */
 		}
 
 		#banner {
@@ -661,7 +664,7 @@
 			background: #c8d2bc url(images/bg1.png);
 			display: none;
 		}
-
+		
 		#banner {
 			position: relative;
 			width: 100%;
