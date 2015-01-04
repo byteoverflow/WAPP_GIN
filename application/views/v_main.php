@@ -122,11 +122,6 @@
 							They teach and train within the GIN Membership on many areas: 
 							physical wellness, mental health, wealth creation, investing, Self-improvement and awareness, Business acumen, etiquette, numerology, martial arts, yoga, and so many more.								
 							</p>
-								
-								<footer class="controls">
-									<a href="<?php echo base_url('index.php/main/faqs') ?>" class="button">more</a>
-								</footer>
-								
 							</div>
 							<div class="6u">
 								

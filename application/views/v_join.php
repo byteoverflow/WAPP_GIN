@@ -44,8 +44,9 @@
 								Please enter below the <b>associate code OR</b> the <b>email address</b> of the GIN Associate/Member who invited you to join the Global Information Network.</p>														
 						</section>
 						
+						<h3 style="color:#B3B4BD">SPONSORS INFORMATION</h3>
 						<section>
-							<h3 style="color:#B3B4BD">SPONSORS INFORMATION</h3>
+							
 							<table>
 							<tr>
 							 <td width="50%"><h4>Associate Code Option</h4></td>

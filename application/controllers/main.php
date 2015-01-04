@@ -22,15 +22,15 @@ class Main extends CI_Controller {
 	}
 	
 	public function faqs(){
-		echo "faqs page";
+		$this->load->view('v_faqs');
 	}
 	
 	public function contact(){
-		echo "contact page";
+		$this->load->view('v_contact');
 	}
 	
 	public function login(){
-		echo "login page";
+		$this->load->view('v_login');
 	}
 	
 
