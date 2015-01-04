@@ -14,11 +14,11 @@ class Main extends CI_Controller {
 	}
 	
 	public function about(){
-		echo "about page";
+		$this->load->view('v_about');
 	}
 	
 	public function join(){
-		echo "join page";
+		$this->load->view('v_join');
 	}
 	
 	public function faqs(){

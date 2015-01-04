@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Global Information Network</title>
+		<title>Global Information Network - Home</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -115,7 +115,7 @@
 					<div class="4u">
 					
 						<section>
-							<h2>MEET OUR FACULTY</h2>
+							<h2>Meet our faculty</h2>
 							<img src="<?php echo base_url('assets/css/images/faculty.png'); ?>" alt="" class="left" />
 							<p>Our GIN Faculty is comprised of the leading experts in their field; speakers from a variety of backgrounds: Authors, professional athletes, successful entrepreneurs, doctors, and professional speakers. 
 							Each of our faculty can be considered an authority.
