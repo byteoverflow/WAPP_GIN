@@ -59,24 +59,24 @@
 		</div>
 		<div id="banner-wrapper">		
 			<table>
-							<tr>
-							 <td width="50%"></td>
-							 <td>						 	
-							 	<div id="featured"> 
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
-	     							<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
-								</div>
-						<!-- Captions for Orbit -->
-								<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
-								<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
-								<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
-								<span class="orbit-caption" id="image4Caption">Image4 Caption</span>						 	
-							 </td>
-							 <td width="50%"></td>							
-							</tr>						
-						</table>			
+				<tr>
+				 <td width="50%"></td>
+				 <td>						 	
+				 	<div id="featured"> 
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
+					</div>
+			<!-- Captions for Orbit -->
+					<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
+					<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
+					<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
+					<span class="orbit-caption" id="image4Caption">Image4 Caption</span>						 	
+				 </td>
+				 <td width="50%"></td>							
+				</tr>						
+			</table>			
 		</div>
 		<div id="main">
 			<div class="5grid">

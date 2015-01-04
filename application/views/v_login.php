@@ -10,7 +10,10 @@
 		<!--[if lt IE 9]><script src="<?php echo base_url('assets/css/5grid/ie.js') ?>"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/5grid/core.css'); ?>" />
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/loginFormStyle.css'); ?>" />
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
+		
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/formsStyle.css'); ?>" />
 	</head>
 	<body>
 	<!-- ********************************************************* -->
@@ -36,26 +39,38 @@
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="12u-first">	
-							<div class="container">
-								<section id="content">
-									<form action="">
-										<h1>Login Form</h1>
-										<div>
-											<input type="text" placeholder="Username" required="" id="username" />
+					<div class="12u-first">							
+							<table>
+								<tr>
+								 <td width="50%"></td>
+								 <td>						 	
+								 	<form class="form1" action="index.html">
+										<div class="formtitle">Login to your account</div>				
+										<div class="input">
+											<div class="inputtext">Username: </div>
+											<div class="inputcontent">				
+												<input type="text" />				
+											</div>
 										</div>
-										<div>
-											<input type="password" placeholder="Password" required="" id="password" />
+							
+										<div class="input nobottomborder">
+											<div class="inputtext">Password: </div>
+											<div class="inputcontent">				
+												<input type="password" />
+												<br/><a href="#">Forgot password?</a>				
+											</div>
 										</div>
-										<div>
-											<input type="submit" value="Log in" />
-											<a href="#">Lost your password?</a>
-										</div>
-									</form><!-- form -->
-									
-								</section><!-- content -->
-							</div><!-- container -->
-						
+							
+										<div class="buttons">				
+											<input class="orangebutton" type="submit" value="Login" />
+										</div>				
+									</form>						 	
+								 </td>
+								 <td width="50%"></td>							
+								</tr>						
+							</table>
+							
+							
 					</div>
 				</div>
 			</div>

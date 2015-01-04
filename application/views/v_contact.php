@@ -11,6 +11,10 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/5grid/core.css'); ?>" />
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
+		
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/formsStyle.css'); ?>" />
+		
+		
 	</head>
 	<body>
 	<!-- ********************************************************* -->
@@ -40,34 +44,53 @@
 							<h2>Contact Us</h2>	
 							<p>Please use the form below to contact the Global Information Network with any questions and/or comments that you may have. If a response is required, you will receive one promptly.</p>
 							
-							<div id="contact-form" class="clearfix">
-							    <ul id="errors" class="">
-							        <li id="info">There were some problems with your form submission:</li>
-							    </ul>
-							    <p id="success">Thanks for your message! We will get back to you ASAP!</p>
-							    <form method="post" action="process.php">
-							        <label for="name">Name: <span class="required">*</span></label>
-							        <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
-							         
-							        <label for="email">Email Address: <span class="required">*</span></label>
-							        <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
-							         
-							        <label for="subject">Subject: <span class="required">*</span></label>
-							        <input type="text" id="subject" name="subject" value="" placeholder="Subject" required="required" />
-							         
-							        <label for="message">Message: <span class="required">*</span></label>
-							        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
-							         
-							        <span id="loading"></span>
-							        <input type="submit" value="Send!" id="submit-button" />
-							        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
-							    </form>
-</div>
-						
+							<table>
+								<tr>
+								 <td width="50%"></td>
+								 <td>						 	
+								 	<form class="form2" action="index.html">
+								<div class="formtitle">Contact Us</div>
+					
+								<div class="input">
+									<div class="inputtext">Your Name: </div>
+									<div class="inputcontent">					
+										<input type="text" />					
+									</div>
+								</div>
+					
+								<div class="input">
+									<div class="inputtext">Your Surname: </div>
+									<div class="inputcontent">					
+										<input type="text" />					
+									</div>
+								</div>
+					
+								<div class="input">
+									<div class="inputtext">Your Email: </div>
+									<div class="inputcontent">					
+										<input type="text" />					
+									</div>
+								</div>
+					
+								<div class="inputtextbox nobottomborder">
+									<div class="inputtext">Message: </div>
+									<div class="inputcontent">					
+										<textarea class="textarea"></textarea>					
+									</div>
+								</div>
+					
+								<div class="buttons">					
+									<input class="orangebutton" type="submit" value="Send" />					
+								</div>					
+							</form>										 	
+								 </td>
+								 <td width="50%"></td>							
+								</tr>						
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		<div id="footer-wrapper">
 			
 			<div align="center" style="color:#FFFFFF">
