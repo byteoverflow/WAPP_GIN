@@ -19,7 +19,7 @@
 				<div class="12u-first">
 					
 					<header id="header">
-						<h1>Global Information Network</h1>
+						<h1>GIN</h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>">About GIN</a>

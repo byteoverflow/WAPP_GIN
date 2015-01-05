@@ -18,7 +18,7 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1>Global Information Network</h1>
+						<h1>GIN</h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About GIN</a>
@@ -42,7 +42,7 @@
 							 <td width="50%"></td>
 							 <td>						 	
 							 	<iframe width="500" height="395"
-									src="http://www.youtube.com/embed/SHPACRa6Vq8">
+									src="http://www.youtube.com/embed/j43q-5qkClM">
 								</iframe>						 	
 							 </td>
 							 <td width="50%"></td>							

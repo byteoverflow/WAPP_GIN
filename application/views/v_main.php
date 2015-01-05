@@ -44,7 +44,7 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1>Global Information Network</h1>
+						<h1>IAM Power</h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>" class="current-page-item">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>">About GIN</a>
@@ -100,7 +100,7 @@
 					<div class="4u">
 						
 						<section>
-							<h2>Gin Fun</h2>
+							<h2>About Mimoza Thaqi</h2>
 							
 									<img src="<?php echo base_url('assets/css/images/gin_fun.png'); ?>" alt="" class="left" />
 									<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
@@ -115,7 +115,7 @@
 					<div class="4u">
 					
 						<section>
-							<h2>Meet our faculty</h2>
+							<h2>Meet our companies</h2>
 							<img src="<?php echo base_url('assets/css/images/faculty.png'); ?>" alt="" class="left" />
 							<p>Our GIN Faculty is comprised of the leading experts in their field; speakers from a variety of backgrounds: Authors, professional athletes, successful entrepreneurs, doctors, and professional speakers. 
 							Each of our faculty can be considered an authority.
