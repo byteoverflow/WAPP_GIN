@@ -84,7 +84,7 @@
 					<div class="4u-first">						
 						<section>
 							<h2>About the club</h2>
-							<img src="<?php echo base_url('assets/css/images/about_the_club.png'); ?>" alt="" class="left" />
+							<img src="<?php echo base_url('assets/css/images/iampower_small.jpg'); ?>" alt="" class="left" />
 							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in Janury 2015, 
 								by a group of very successful people. 
 								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
@@ -102,7 +102,7 @@
 						<section>
 							<h2>About Mimoza Thaqi</h2>
 							
-									<img src="<?php echo base_url('assets/css/images/gin_fun.png'); ?>" alt="" class="left" />
+									<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
 									<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
 										Having fun while learning and conducting business is a key part of the success formula in GIN. 
 										One of the side benefits if you will of being a GIN Member is you will make new best friends. 
@@ -116,7 +116,7 @@
 					
 						<section>
 							<h2>Meet our companies</h2>
-							<img src="<?php echo base_url('assets/css/images/faculty.png'); ?>" alt="" class="left" />
+							<img src="<?php echo base_url('assets/css/images/sun_logo.jpg'); ?>" alt=""  />
 							<p>Our GIN Faculty is comprised of the leading experts in their field; speakers from a variety of backgrounds: Authors, professional athletes, successful entrepreneurs, doctors, and professional speakers. 
 							Each of our faculty can be considered an authority.
 							They teach and train within the GIN Membership on many areas: 
