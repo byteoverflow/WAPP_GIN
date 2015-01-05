@@ -130,19 +130,10 @@
 
 					</div>
 				</div>
-				<div class="main-row">
-					<div class="6u-first">
-					
-					</div>
-					<div class="6u">				
-						
-
-					</div>
-				</div>
+				
 			</div>
 		</div>
-		<div id="footer-wrapper">
-			
+		<div id="footer-wrapper">			
 			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 Global Information Network Website.
 			</div>

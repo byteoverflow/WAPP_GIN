@@ -539,6 +539,7 @@
 
 		#footer-wrapper {
 			padding: 5% 0 5% 0;
+			background: #fff url('images/footer.png');
 		}
 
 		#copyright {
@@ -714,6 +715,7 @@
 
 		#footer-wrapper section, #footer-wrapper article {
 			border-bottom: solid 1px #ced0b7;
+			background: #fff url('images/footer.png');
 		}
 			
 		#copyright {
