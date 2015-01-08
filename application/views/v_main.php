@@ -48,6 +48,7 @@
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>" class="current-page-item">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
+							<a href="<?php echo base_url('index.php/main/meetme') ?>">Meet me</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
@@ -97,19 +98,20 @@
 							<footer class="controls">
 								<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
 							</footer>
-						</section>
-					
+						</section>					
 					</div>
 					<div class="4u">						
 						<section>
 							<h2>About Mimoza Thaqi</h2>							
 								<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
-								<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
-									Having fun while learning and conducting business is a key part of the success formula in GIN. 
-									One of the side benefits if you will of being a GIN Member is you will make new best friends. 
-									Approximately once a quarter, GIN conducts a weekend function, 
-									where 1000s of GIN Members from around the world get together.
-								</p>							
+								<p>
+									Qëllimet që i kam vënë në jetë, i kam arritur hap pas hapi.
+									Tani qëllim imi është që t’u shërbej njerëzve sa më shumë që është e mundur, që edhe ato t’i sendërtojnë ëndrrat dhe qëllimit e tyre!
+									Çdo sukses dhe çdo arritje e një personi, që unë kam pasur fatin ta njoh dhe t’i bëj një shërbim, është sukses dhe lumturi për mua...									
+								</p>
+								<footer class="controls">
+								<a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a>
+							</footer>							
 						</section>					
 					</div>
 					<div class="4u">					

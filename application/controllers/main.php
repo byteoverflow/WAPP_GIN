@@ -17,6 +17,10 @@ class Main extends CI_Controller {
 		$this->load->view('v_about');
 	}
 	
+	public function meetme(){
+		$this->load->view('v_meetme');
+	}
+	
 	public function join(){
 		$this->load->view('v_join');
 	}
