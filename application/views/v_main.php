@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Global Information Network - Home</title>
+		<title>IAM Power - Home</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -44,14 +44,14 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1>IAM Power</h1>
+						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>" class="current-page-item">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About GIN</a>
+							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Website Login</a>
+							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
 					</header>				
 				</div>
@@ -61,18 +61,21 @@
 			<table>
 				<tr>
 				 <td width="50%"></td>
-				 <td>						 	
-				 	<div id="featured"> 
+				 <td>
+				 	
+					<img src="<?php echo base_url('assets/css/images/iampower_banner.jpg'); ?>" alt="IAMPower banner" > <!-- height="42" width="42"> -->
+				 							 	
+				 	<!-- <div id="featured"> 
 						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
 						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
 						<img src="<?php echo base_url('assets/orbitSlider/images/slide3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
 						<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
-					</div>
+					</div> -->
 			<!-- Captions for Orbit -->
-					<span class="orbit-caption" id="image1Caption">Image1 Caption</span>
+					<!-- <span class="orbit-caption" id="image1Caption">Image1 Caption</span>
 					<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
 					<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
-					<span class="orbit-caption" id="image4Caption">Image4 Caption</span>						 	
+					<span class="orbit-caption" id="image4Caption">Image4 Caption</span> -->						 	
 				 </td>
 				 <td width="50%"></td>							
 				</tr>						
@@ -97,23 +100,19 @@
 						</section>
 					
 					</div>
-					<div class="4u">
-						
+					<div class="4u">						
 						<section>
-							<h2>About Mimoza Thaqi</h2>
-							
-									<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
-									<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
-										Having fun while learning and conducting business is a key part of the success formula in GIN. 
-										One of the side benefits if you will of being a GIN Member is you will make new best friends. 
-										Approximately once a quarter, GIN conducts a weekend function, 
-										where 1000s of GIN Members from around the world get together.</p>
-							
-						</section>
-					
+							<h2>About Mimoza Thaqi</h2>							
+								<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
+								<p>In addition to all the other amazing benefits of GIN is that GIN Members have a lot of Fun together. 
+									Having fun while learning and conducting business is a key part of the success formula in GIN. 
+									One of the side benefits if you will of being a GIN Member is you will make new best friends. 
+									Approximately once a quarter, GIN conducts a weekend function, 
+									where 1000s of GIN Members from around the world get together.
+								</p>							
+						</section>					
 					</div>
-					<div class="4u">
-					
+					<div class="4u">					
 						<section>
 							<h2>Meet our companies</h2>
 							<img src="<?php echo base_url('assets/css/images/sun_logo.jpg'); ?>" alt=""  />
@@ -122,20 +121,21 @@
 							They teach and train within the GIN Membership on many areas: 
 							physical wellness, mental health, wealth creation, investing, Self-improvement and awareness, Business acumen, etiquette, numerology, martial arts, yoga, and so many more.								
 							</p>
+							<footer class="controls">
+								<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>
+							</footer>
 							</div>
-							<div class="6u">
-								
+							<div class="6u">							
 							</div>
 						</section>
 
 					</div>
-				</div>
-				
+				</div>				
 			</div>
 		</div>
 		<div id="footer-wrapper">			
 			<div align="center" style="color:#FFFFFF">
-				&copy; 2015 Global Information Network Website.
+				&copy; 2015 IAM Power Website.
 			</div>
 			
 		</div>

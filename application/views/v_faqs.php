@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Global Information Network - Faqs</title>
+		<title>GIAM Power - Faqs</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -19,14 +19,14 @@
 				<div class="12u-first">
 					
 					<header id="header">
-						<h1>GIN</h1>
+						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About GIN</a>
+							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>"class="current-page-item">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Website Login</a>
+							<a href="<?php echo base_url('index.php/main/login') ?>">members Login</a>
 						</nav>
 					</header>				
 				
@@ -93,7 +93,7 @@
 		<div id="footer-wrapper">
 			
 			<div align="center" style="color:#FFFFFF">
-				&copy; 2015 Global Information Network Website.
+				&copy; 2015 IAM Power Website.
 			</div>
 			
 		</div>

@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Global Information Network - About</title>
+		<title>IAM Power - About</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -18,14 +18,14 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1>GIN</h1>
+						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About GIN</a>
+							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Website Login</a>
+							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
 					</header>
 				</div>
@@ -36,7 +36,7 @@
 				<div class="main-row">
 					<div class="12u-first">	
 						<section>
-							<h2>About GIN</h2>
+							<h2>About IAM Power</h2>
 							<table>
 							<tr>
 							 <td width="50%"></td>
@@ -59,7 +59,7 @@
 		</div>
 		<div id="footer-wrapper">			
 			<div align="center" style="color:#FFFFFF">
-				&copy; 2015 Global Information Network Website.
+				&copy; 2015 IAM Power Website.
 			</div>			
 		</div>
 	<!-- ********************************************************* -->

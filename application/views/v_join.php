@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Global Information Network - Join</title>
+		<title>IAM Power - Join now</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -19,14 +19,14 @@
 				<div class="12u-first">
 					
 					<header id="header">
-						<h1>GIN</h1>
+						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About GIN</a>
+							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>" class="current-page-item">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Website Login</a>
+							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
 					</header>				
 				
@@ -39,7 +39,7 @@
 					<div class="12u-first">						
 						
 						<section>
-							<h2>Join the Global Information Network</h2>
+							<h2>Join the IAM Power Club</h2>
 							<p>Joining the Global Information Network is by invitation only. You must be "sponsored" by an existing Associate/Member. 
 								Please enter below the <b>associate code OR</b> the <b>email address</b> of the GIN Associate/Member who invited you to join the Global Information Network.</p>														
 						</section>
@@ -103,7 +103,7 @@
 		<div id="footer-wrapper">
 			
 			<div align="center" style="color:#FFFFFF">
-				&copy; 2015 Global Information Network Website.
+				&copy; 2015 IAM Power Website.
 			</div>
 			
 		</div>
