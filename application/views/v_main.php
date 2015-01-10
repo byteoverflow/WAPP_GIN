@@ -85,23 +85,18 @@
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="4u-first">						
-						<section>
+						<div class="4u-first">
 							<h2>About the club</h2>
-							<img src="<?php echo base_url('assets/css/images/iampower_small.jpg'); ?>" alt="" class="left" />
+							<img src="<?php echo base_url('assets/css/images/iampower_small.png'); ?>" alt="" class="left" />
 							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in Janury 2015, 
 								by a group of very successful people. 
 								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
 								GIN is a global club and has Members and Associates in more than 150 countries. 
 								In short, GIN is a very unique success club, unlike any club that has ever been formed before.
 							</p>
-							<footer class="controls">
-								<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
-							</footer>
-						</section>					
-					</div>
-					<div class="4u">						
-						<section>
+											
+						</div>
+						<div class="4u">
 							<h2>About Mimoza Thaqi</h2>							
 								<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
 								<p>
@@ -109,29 +104,29 @@
 									Tani qëllim imi është që t’u shërbej njerëzve sa më shumë që është e mundur, që edhe ato t’i sendërtojnë ëndrrat dhe qëllimit e tyre!
 									Çdo sukses dhe çdo arritje e një personi, që unë kam pasur fatin ta njoh dhe t’i bëj një shërbim, është sukses dhe lumturi për mua...									
 								</p>
-								<footer class="controls">
-								<a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a>
-							</footer>							
-						</section>					
+								
+						</div>
+						<div class="4u">
+								<h2>Meet our companies</h2>
+								<img src="<?php echo base_url('assets/css/images/sun_logo.png'); ?>" alt=""  />
+								<p>
+									Sun and Stars tashmë 10 vjet në tregun e Maqedonisë ështe sinonim i veshjeve kualitative Second hand (të përdorura) të cilat i ofron me çmime jashtëzakonisht të lira. 
+									Si kompani, Sun and Stars, veshjet i importon nga Danimarka dhe ka kontratë shumëvjeçare me kompaninë Trasborg, si perfaqesues i saj për Maqedoni. 
+									Ne shitoret tona ju mund te gjeni veshje për të gjitha grup moshat me çmime shumë të volitshme. Na vizitoni dhe do ngeleni të kënaqur.								
+								</p>
+						</div>
 					</div>
-					<div class="4u">					
-						<section>
-							<h2>Meet our companies</h2>
-							<img src="<?php echo base_url('assets/css/images/sun_logo.jpg'); ?>" alt=""  />
-							<p>Our GIN Faculty is comprised of the leading experts in their field; speakers from a variety of backgrounds: Authors, professional athletes, successful entrepreneurs, doctors, and professional speakers. 
-							Each of our faculty can be considered an authority.
-							They teach and train within the GIN Membership on many areas: 
-							physical wellness, mental health, wealth creation, investing, Self-improvement and awareness, Business acumen, etiquette, numerology, martial arts, yoga, and so many more.								
-							</p>
-							<footer class="controls">
-								<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>
-							</footer>
-							</div>
-							<div class="6u">							
-							</div>
-						</section>
-
+				<div>
+					<div class="4u-first" style="text-align: center">
+						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
 					</div>
+					<div class="4u" style="text-align: center">
+						<a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a>
+					</div>
+					<div class="4u" style="text-align: center">
+						<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>
+					</div>
+				</div>	
 				</div>				
 			</div>
 		</div>
@@ -139,7 +134,6 @@
 			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 IAM Power Website.
 			</div>
-			
 		</div>
 	<!-- ********************************************************* -->
 	</body>
