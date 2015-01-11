@@ -49,7 +49,7 @@
 									<td><h4>What is my Invitation Code?</h4></td>
 								</tr>
 								<tr>
-									<td>Your Invitation Code is a code that you will create through the My Account page. This code is unique to your GIN Account and may be distributed to invite friends and family to join our club. Invitees will need this Invitation Code in order to register. Your Member ID may also be used as an Invitation Code.</td>
+									<td>Your Invitation Code is a code that you will get during registration process. This code is unique to your IAM Power Account and may be distributed to invite friends and family to join our club. Invitees will need this Invitation Code in order to register. Your Email address may also be used as an Invitation Code.</td>
 								</tr>
 								
 								<tr style="height: 30px">
@@ -57,7 +57,7 @@
 								</tr>
 								
 								<tr>
-									<td><h4>How much does it cost to join GIN?</h4></td>
+									<td><h4>How much does it cost to join IAM Power?</h4></td>
 								</tr>
 								<tr>
 									<td>There is a one-time initial fee of $495. Your first month of Membership is included with your initiation fee. $150 monthly Membership dues will begin the following month and be charged to the card on file.</td>
@@ -84,7 +84,6 @@
 								<tr>
 									<td>Yes! Associates can join as a Member at any time within twelve months of initiation. After twelve months all free Associate accounts will be terminated.</td>
 								</tr>
-								
 							</table>
 						
 					</div>

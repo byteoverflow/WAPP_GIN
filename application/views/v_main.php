@@ -49,11 +49,13 @@
 						<div class="4u-first">
 							<h2>About the club</h2>
 							<img src="<?php echo base_url('assets/css/images/iampower_small.png'); ?>" alt="" class="left" />
-							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in Janury 2015, 
+							<p>The IAM Power Club, is a private membership club that was formed in Janury 2015, 
 								by a group of very successful people. 
 								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
-								GIN is a global club and has Members and Associates in more than 150 countries. 
-								In short, GIN is a very unique success club, unlike any club that has ever been formed before.
+								IAM Power is a global club and has Members and Associates all over the world. 
+								In short, IAM Power is a very unique success club, unlike any club that has ever been formed before.
+								<br>
+								IAM Power has put together what people call "the missing link," to help them attain what they want in life.
 							</p>
 											
 						</div>

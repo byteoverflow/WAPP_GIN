@@ -50,8 +50,14 @@
 						</table>						
 						</section>
 						<section>							
-							<p>The Global Information Network, or GIN for short, is a private membership club that was formed in November 2009, by a group of very successful people. The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. GIN is a global club and has Members and Associates in more than 150 countries. In short, GIN is a very unique success club, unlike any club that has ever been formed before.</p>
-							<p>GIN has put together what people call "the missing link," to help them attain what they want in life. There are multiple dynamics in attaining success and GIN has them all. GIN Members do business with other GIN Members. Since the club was formed, 100s of millions of dollars in business has been conducted between GIN Members.</p>							
+							<p>
+							The IAM Power Club, is a private membership club that was formed in Janury 2015, by a group of very successful people. The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. IAM Power is a global club and has Members and Associates all over the world. In short, IAM Power is a very unique success club, unlike any club that has ever been formed before. 
+							<br>IAM Power has put together what people call "the missing link," to help them attain what they want in life.	
+							IAM Power has put together what people call "the missing link," to help them attain what they want in life. There are multiple dynamics in attaining success and IAM Power has them all.
+							<br>
+							<br>
+							IAM Power is for anyone that wants more out of life; it is for people that have aspirations, goals and dreams. IAM Power is for entrepreneurs, small and large business owners, professionals, people who are self-employed, commissioned sales people, managers of people, anyone that wants to start their own business, and anyone that wants to improve certain areas of their life.
+							</p>							
 						</section>					
 					</div>
 				</div>

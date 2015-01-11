@@ -40,8 +40,8 @@
 						
 						<section>
 							<h2>Join the IAM Power Club</h2>
-							<p>Joining the Global Information Network is by invitation only. You must be "sponsored" by an existing Associate/Member. 
-								Please enter below the <b>associate code OR</b> the <b>email address</b> of the GIN Associate/Member who invited you to join the Global Information Network.</p>														
+							<p>Joining the IAM Power Network is by invitation only. You must be "sponsored" by an existing Associate/Member. 
+								Please enter below the <b>associate code OR</b> the <b>email address</b> of the IAM Power Associate/Member who invited you to join the IAM Power Network.</p>														
 						</section>
 						
 						<h3 style="color:#B3B4BD">SPONSORS INFORMATION</h3>
