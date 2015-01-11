@@ -49,9 +49,8 @@ class Main extends CI_Controller {
 			}
 			else if($validated == FALSE)
 			{
-				echo "NOT VALIDATED";
+				$this->load->view('v_validation');
 			}
-			
 		}
 		else 
 		{
