@@ -16,8 +16,7 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">
-					
+				<div class="12u-first">					
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -47,7 +46,7 @@
 						
 						<h3 style="color:#B3B4BD">SPONSORS INFORMATION</h3>
 						<section>
-							
+							<form action="<?php echo base_url('index.php/main/register'); ?>" method="post">
 							<table>
 							<tr>
 							 <td width="50%"><h4>Associate Code Option</h4></td>
@@ -73,11 +72,11 @@
 							</tr>
 							
 							<tr>
-							 <td width="50%"><input type="text" style="height: 20px; width: 300px"  /></td>
+							 <td width="50%"><input type="text" name="txtAssociationCode" style="height: 20px; width: 300px"  /></td>
 							 <td>						 	
 							 							 	
 							 </td>
-							 <td width="50%"><input type="text" style="height: 20px; width: 300px"  /></td>							
+							 <td width="50%"><input type="text" name="txtEmail" style="height: 20px; width: 300px"  /></td>							
 							</tr>
 							
 							<tr style="height: 20px">
@@ -88,15 +87,15 @@
 							</tr>
 							
 							<tr>
-							 <td><input type="button" value="Next" class="button"/> </td>
+							 <td>
+							 	<input type="submit" value="Next" class="button"/>
+							 </td>
 							 <td></td>
 							 <td></td>							
-							</tr>
-							
-												
-						</table>			
-						</section>
-					
+							</tr>					
+						</table>
+						</form>			
+						</section>					
 					</div>
 				</div>
 			</div>

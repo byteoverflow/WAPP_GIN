@@ -37,6 +37,28 @@ class Main extends CI_Controller {
 		$this->load->view('v_login');
 	}
 	
+	public function register(){
+		if( $_POST["txtAssociationCode"] || $_POST["txtEmail"] )
+  		{
+     		$this->load->model('m_main');
+			
+			$validated = $this->m_main->validateSponsor($_POST["txtAssociationCode"], $_POST["txtEmail"]);
+			if($validated == TRUE)
+			{
+				echo "VALIDATED";
+			}
+			else if($validated == FALSE)
+			{
+				echo "NOT VALIDATED";
+			}
+			
+		}
+		else 
+		{
+			$this->load->view('v_join');
+		}
+	}
+	
 
 //end of the Main controller
 }

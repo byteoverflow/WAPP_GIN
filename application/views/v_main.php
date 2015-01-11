@@ -20,13 +20,13 @@
 					<header id="header">
 						<h1></h1>
 						<nav>
-							<a href="<?php echo base_url('index.php/main/index') ?>" class="current-page-item">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/meetme') ?>">Meet me</a>
-							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
-							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
+							<a href="<?php echo base_url('index.php/main/index'); ?>" class="current-page-item">Home</a>
+							<a href="<?php echo base_url('index.php/main/about'); ?>">About</a>
+							<a href="<?php echo base_url('index.php/main/meetme'); ?>">Meet me</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>">Join Now</a>
+							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQs</a>
+							<a href="<?php echo base_url('index.php/main/contact'); ?>">Contact Us</a>
+							<a href="<?php echo base_url('index.php/main/login'); ?>">Members Login</a>
 						</nav>
 					</header>				
 				</div>
