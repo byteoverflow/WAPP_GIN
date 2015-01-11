@@ -46,5 +46,9 @@ class M_Main extends CI_Model
 					return FALSE;	
 				}
 			}
+			else 
+			{
+				return FALSE;	
+			}
 		}
 }

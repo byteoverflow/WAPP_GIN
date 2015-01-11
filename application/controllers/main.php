@@ -38,7 +38,7 @@ class Main extends CI_Controller {
 	}
 	
 	public function register(){
-		if( $_POST["txtAssociationCode"] || $_POST["txtEmail"] )
+		if( isset($_POST["txtAssociationCode"]) || isset($_POST["txtEmail"]))
   		{
      		$this->load->model('m_main');
 			
@@ -55,7 +55,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_join');
+			$this->join();
 		}
 	}
 	
