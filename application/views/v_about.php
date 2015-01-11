@@ -37,7 +37,6 @@
 				<div class="main-row">
 					<div class="12u-first">	
 						<section>
-							<h2>About IAM Power</h2>
 							<table>
 							<tr>
 							 <td width="50%"></td>

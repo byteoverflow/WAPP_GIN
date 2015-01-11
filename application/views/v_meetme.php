@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - About</title>
+		<title>IAM Power - Meet me</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -11,6 +11,32 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/5grid/core.css'); ?>" />
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
+		<script src="<?php echo base_url('assets/orbitSlider/js/jquery.min.js'); ?>" type="text/javascript"></script>
+		<script src="<?php echo base_url('assets/orbitSlider/js/jquery.orbit.min.js'); ?>" type="text/javascript"></script>
+		<link rel="stylesheet" href="<?php echo base_url('assets/orbitSlider/css/orbit.css'); ?>">
+		
+		<script type="text/javascript">
+     		$(window).load(function() 
+     		{
+				$('#featured').orbit({
+     				animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+     				animationSpeed: 800,                // how fast animtions are
+     				timer: true, 			 // true or false to have the timer
+     				advanceSpeed: 4000, 		 // if timer is enabled, time between transitions 
+     				pauseOnHover: false, 		 // if you hover pauses the slider
+     				startClockOnMouseOut: false, 	 // if clock should start on MouseOut
+     				startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
+     				directionalNav: false, 		 // manual advancing directional navs
+     				captions: true, 			 // do you want captions?
+     				captionAnimation: 'fade', 		 // fade, slideOpen, none
+     				captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
+     				bullets: true,			 // true or false to activate the bullet navigation
+     				bulletThumbs: false,		 // thumbnails for the bullets
+     				bulletThumbLocation: '',		 // location from this file where thumbs will be
+     				afterSlideChange: function(){} 	 // empty function 
+				});
+     		});
+		</script>
 	</head>
 	<body>
 	<!-- ********************************************************* -->
@@ -32,11 +58,32 @@
 				</div>
 			</div>
 		</div>
+		<div id="banner-wrapper">		
+			<table>
+				<tr>
+				 <td width="50%"></td>
+				 <td>
+				 	<div id="featured"> 
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide3.jpg'); ?>" alt="Image not found" data-caption="#image3Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
+					</div>
+			<!-- Captions for Orbit -->
+					<!-- <span class="orbit-caption" id="image1Caption">Image1 Caption</span>
+					<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
+					<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
+					<span class="orbit-caption" id="image4Caption">Image4 Caption</span> -->						 	
+				 </td>
+				 <td width="50%"></td>							
+				</tr>						
+			</table>			
+		</div>
+		
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
 					<div class="12u-first">	
-						<h2>About Mimoza Thaqi</h2>									 
 						 <p>
 							Qëllimet që i kam vënë në jetë, i kam arritur hap pas hapi.<br>
 							Tani qëllim imi është që t’u shërbej njerëzve sa më shumë që është e mundur, që edhe ato t’i sendërtojnë ëndrrat dhe qëllimit e tyre!<br>
