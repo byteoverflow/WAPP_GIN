@@ -18,11 +18,10 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1></h1>
+						<h1>LOGO</h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index'); ?>" class="current-page-item">Home</a>
 							<a href="<?php echo base_url('index.php/main/about'); ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/meetme'); ?>">Meet me</a>
 							<a href="<?php echo base_url('index.php/main/join'); ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact'); ?>">Contact Us</a>
@@ -84,7 +83,8 @@
 						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a>
+						<!-- <a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a> -->
+						<a href="http://www.mimozathaqi.com" target="_blank" class="button">more</a>
 					</div>
 					<div class="4u" style="text-align: center">
 						<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>

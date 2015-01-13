@@ -22,7 +22,6 @@
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/meetme') ?>">Meet me</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>" class="current-page-item">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>

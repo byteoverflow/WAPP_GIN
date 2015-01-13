@@ -22,7 +22,6 @@
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About</a>
-							<a href="<?php echo base_url('index.php/main/meetme') ?>">Meet me</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
@@ -42,7 +41,7 @@
 							 <td width="50%"></td>
 							 <td>						 	
 							 	<iframe width="500" height="395"
-									src="http://www.youtube.com/embed/j43q-5qkClM">
+								src="http://www.youtube.com/embed/j43q-5qkClM">
 								</iframe>						 	
 							 </td>
 							 <td width="50%"></td>							

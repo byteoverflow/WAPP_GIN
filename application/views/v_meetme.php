@@ -48,7 +48,6 @@
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
 							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/meetme') ?>" class="current-page-item">Meet me</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
@@ -70,10 +69,10 @@
 						<img src="<?php echo base_url('assets/orbitSlider/images/slide4.jpg'); ?>" alt="Image not found" data-caption="#image4Caption" />
 					</div>
 			<!-- Captions for Orbit -->
-					<!-- <span class="orbit-caption" id="image1Caption">Image1 Caption</span>
-					<span class="orbit-caption" id="image2Caption">Image2 Caption</span>
-					<span class="orbit-caption" id="image3Caption">Image3 Caption</span>
-					<span class="orbit-caption" id="image4Caption">Image4 Caption</span> -->						 	
+					<span class="orbit-caption" id="image1Caption">Opis na slikata</span>
+					<span class="orbit-caption" id="image2Caption">Opis na slikata</span>
+					<span class="orbit-caption" id="image3Caption">Opis na slikata</span>
+					<span class="orbit-caption" id="image4Caption">Opis na slikata</span>					 	
 				 </td>
 				 <td width="50%"></td>							
 				</tr>						
