@@ -69,7 +69,7 @@
 								<tr style="height: 10px;"></tr>								
 								<tr>									
 									<td width="50%"> </td>	
-									<td style="text-align: center; color:#E13300"> 
+									<td style="text-align: center; color:#008dab"> 
 										<?php 
 											if(isset($invalidLogin))
 											{
