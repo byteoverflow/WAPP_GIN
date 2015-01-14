@@ -6,6 +6,7 @@ class Main extends CI_Controller {
 		parent::__construct();
 		
 		$this->load->helper("url");
+		$this->load->model('m_main');
 	}
 	
 	public function index(){
@@ -34,9 +35,8 @@ class Main extends CI_Controller {
 	}
 	
 	public function register(){
-		if( isset($_POST["txtAssociationCode"]) || isset($_POST["txtEmail"]))
+		if( isset($_POST["txtAssociationCode"]) && isset($_POST["txtEmail"]))
   		{
-     		$this->load->model('m_main');
 			
 			$validated = $this->m_main->validateSponsor($_POST["txtAssociationCode"], $_POST["txtEmail"]);
 			if($validated == TRUE)
@@ -51,6 +51,28 @@ class Main extends CI_Controller {
 		else 
 		{
 			$this->join();
+		}
+	}
+	
+	public function content(){
+		if( isset($_POST["txtUsername"]) || isset($_POST["txtPassword"]))
+  		{
+  				
+			$validated = $this->m_main->validateLogin($_POST["txtUsername"], $_POST["txtPassword"]);
+			if($validated == TRUE)
+			{
+				echo "USER LOGGED";
+			}
+			else if($validated == FALSE)
+			{
+				$data['invalidLogin'] = '*Invalid login. Please try again!';
+				
+				$this->load->view('v_login', $data);
+			}
+		}
+		else 
+		{
+			$this->login();
 		}
 	}
 	

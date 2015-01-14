@@ -51,4 +51,30 @@ class M_Main extends CI_Model
 				return FALSE;	
 			}
 		}
+		
+		
+		public function validateLogin($username, $password)
+		{
+			if($username && $password)
+			{
+				$passwordHash = md5($password);
+				
+				$query = $this->db->query("SELECT * FROM tbl_accounts WHERE username='".$username."' AND password='".$passwordHash."'");
+				
+				if ($query->num_rows() > 0)
+				{
+				   return TRUE;
+				}
+				else
+				{
+					return FALSE;	
+				}	
+			}
+			else 
+			{
+				return FALSE;	
+			}
+		}
+		
+		
 }

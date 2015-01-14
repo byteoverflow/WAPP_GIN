@@ -44,33 +44,42 @@
 								<tr>
 								 <td width="50%"></td>
 								 <td>						 	
-								 	<form class="form1" action="index.html">
+								 	<form class="form1" action="<?php echo base_url('index.php/main/content'); ?>" method="post">
 										<div class="formtitle">Login to your account</div>				
 										<div class="input">
 											<div class="inputtext">Username: </div>
 											<div class="inputcontent">				
-												<input type="text" />				
+												<input type="text" name="txtUsername" />				
 											</div>
 										</div>
-							
 										<div class="input nobottomborder">
 											<div class="inputtext">Password: </div>
 											<div class="inputcontent">				
-												<input type="password" />
-												<br/><a href="#">Forgot password?</a>				
+												<input type="password" name="txtPassword" />
+												<!-- <br/><a href="#">Forgot password?</a>				 -->
 											</div>
 										</div>
-							
 										<div class="buttons">				
 											<input class="orangebutton" type="submit" value="Login" />
-										</div>				
+										</div>														
 									</form>						 	
 								 </td>
-								 <td width="50%"></td>							
+								 <td width="50%"> </td>							
+								</tr>
+								<tr style="height: 10px;"></tr>								
+								<tr>									
+									<td width="50%"> </td>	
+									<td style="text-align: center; color:#E13300"> 
+										<?php 
+											if(isset($invalidLogin))
+											{
+												echo $invalidLogin;
+											}
+										?>
+									</td>	
+									<td width="50%"> </td>									
 								</tr>						
 							</table>
-							
-							
 					</div>
 				</div>
 			</div>
