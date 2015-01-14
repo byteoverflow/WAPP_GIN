@@ -49,7 +49,7 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'ginbasic';
+$db['default']['username'] = 'ginadvanced';
 $db['default']['password'] = '4GVnYzRqCdCrxE5F';
 $db['default']['database'] = 'gin';
 $db['default']['dbdriver'] = 'mysql';
