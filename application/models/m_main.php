@@ -77,4 +77,36 @@ class M_Main extends CI_Model
 		}
 		
 		
+		public function getMemberLevel($username, $password)
+		{
+			if($username && $password)
+			{
+				$passwordHash = md5($password);
+				
+				$query = $this->db->query("SELECT accessLevel FROM tbl_accounts WHERE username='".$username."' AND password='".$passwordHash."'");
+				if($query->num_rows() > 0)
+				{
+					$row = $query->row();
+					
+					if($row->accessLevel > 0)
+					{
+						return $row->accessLevel;
+					}
+					else 
+					{
+						return 0;	
+					}
+					
+				}
+				else 
+				{
+					return 0;	
+				}
+			}
+			else 
+			{
+				return 0;	
+			}
+		}
+		
 }

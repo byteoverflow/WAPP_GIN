@@ -54,14 +54,24 @@ class Main extends CI_Controller {
 		}
 	}
 	
+	
 	public function content(){
 		if( isset($_POST["txtUsername"]) || isset($_POST["txtPassword"]))
-  		{
-  				
+  		{  				
 			$validated = $this->m_main->validateLogin($_POST["txtUsername"], $_POST["txtPassword"]);
 			if($validated == TRUE)
 			{
-				echo "USER LOGGED";
+				$accessLevel = $this->m_main->getMemberLevel($_POST["txtUsername"], $_POST["txtPassword"]);
+				
+				if($accessLevel > 0)
+				{
+					$this->load->view('v_content');
+				}
+				else 
+				{
+					
+				}
+
 			}
 			else if($validated == FALSE)
 			{
