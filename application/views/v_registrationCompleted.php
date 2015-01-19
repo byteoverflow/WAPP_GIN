@@ -27,18 +27,18 @@
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
 							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
-					</header>	
+					</header>				
+				
 				</div>
 			</div>
 		</div>
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="12u-first">						
-						
+					<div class="12u-first">	
 						<section>
-							<h2>SPONSOR VALIDATION FAILED</h2>
-							<p>Your sponsor association code OR E-mail was not valid. Please use the correct association code OR email of IAM Power Associate/Member who invated you to join the IAM Power Club.</p>
+							<h2>ACCOUNT REGISTRATION COMPLETED SUCCESSFULLY</h2>
+							<p>Congratulations!!! Your registration process has completed successfully. <br> Please use the login page to sign into your account and use the opportunities of the IAM-Power club.</p>
 						</section>
 					</div>
 				</div>

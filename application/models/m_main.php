@@ -83,6 +83,8 @@ class M_Main extends CI_Model
 						); 
 						
 			$this->db->insert('tbl_accounts', $accountData);
+			
+			return TRUE;
 		}
 		
 		

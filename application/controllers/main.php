@@ -71,7 +71,7 @@ class Main extends CI_Controller {
 		)
   		{
 			
-			$this->m_main->createUserAndAccount(
+			$res = $this->m_main->createUserAndAccount(
 			$_POST["txtFirstName"], 
 			$_POST["txtLastName"], 
 			$_POST["txtBirthday"], 
@@ -82,6 +82,12 @@ class Main extends CI_Controller {
 			$_POST["txtPhone"], 
 			$_POST["txtEmail"], 
 			$_POST["txtPassword"]);
+			
+			if($res == TRUE)
+			{
+				$this->load->view('v_registrationCompleted');
+			}
+			
 		}
 		else 
 		{
