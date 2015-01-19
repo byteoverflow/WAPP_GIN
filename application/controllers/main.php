@@ -41,7 +41,10 @@ class Main extends CI_Controller {
 			$validated = $this->m_main->validateSponsor($_POST["txtAssociationCode"], $_POST["txtEmail"]);
 			if($validated == TRUE)
 			{
-				$this->load->view('v_register');
+				$data['sponsorCode'] = $_POST["txtAssociationCode"];
+				$data['sponsorEmail'] = $_POST["txtEmail"];
+				
+				$this->load->view('v_register', $data);
 			}
 			else if($validated == FALSE)
 			{
@@ -68,9 +71,11 @@ class Main extends CI_Controller {
 		&& isset($_POST["txtEmail"])
 		&& isset($_POST["txtPassword"])
 		&& isset($_POST["txtPasswordConfirm"])
+		&& isset($_POST["sponsorCode"])
+		&& isset($_POST["sponsorEmail"])
 		)
   		{
-			
+  			
 			$res = $this->m_main->createUserAndAccount(
 			$_POST["txtFirstName"], 
 			$_POST["txtLastName"], 
@@ -81,7 +86,9 @@ class Main extends CI_Controller {
 			$_POST["txtAddress"], 
 			$_POST["txtPhone"], 
 			$_POST["txtEmail"], 
-			$_POST["txtPassword"]);
+			$_POST["txtPassword"],
+			$_POST["sponsorCode"],
+			$_POST["sponsorEmail"]);
 			
 			if($res == TRUE)
 			{

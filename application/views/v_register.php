@@ -58,7 +58,7 @@
 								</div>
 					
 								<div class="input">
-									<div class="inputtext">Birthday: </div>
+									<div class="inputtext">Birth Date: </div>
 									<div class="inputcontent">					
 										<input type="date" name="txtBirthday" placeholder="YYYY-MM-DD" required="required" />					
 									</div>
@@ -356,8 +356,9 @@
 										<input type="password" id="txtPasswordConfirm" name="txtPasswordConfirm" placeholder="Confirm Password" required="required" />
 									</div>
 								</div>
-								
-					
+								<input type="hidden" name="sponsorCode" value="<?php echo $sponsorCode; ?>" />
+								<input type="hidden" name="sponsorEmail" value="<?php echo $sponsorEmail; ?>" />
+									
 								<div class="buttons">					
 									<input class="orangebutton" type="submit" value="Create account" />					
 								</div>					

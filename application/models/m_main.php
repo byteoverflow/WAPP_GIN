@@ -52,10 +52,10 @@ class M_Main extends CI_Model
 			}
 		}
 		
-		public function createUserAndAccount($firstName, $lastName, $birthday, $gender, $country, $city, $address, $phone, $email, $password)
+		public function createUserAndAccount($firstName, $lastName, $birthday, $gender, $country, $city, $address, $phone, $email, $password, $sponsorCode, $sponsorEmail)
 		{
 			$memberId = uniqid('', TRUE);
-			
+		//ADD USER INFORMATION TO DB	
 			$memberData = array(
 						   'member_id' =>  $memberId,
 						   'firstName' => $firstName ,
@@ -72,6 +72,7 @@ class M_Main extends CI_Model
 						
 			$this->db->insert('tbl_members', $memberData);
 			
+		//ADD ACCOUNT INFORMATION TO DB
 			$accountData = array(
 						   'fk_member_id' =>  $memberId,
 						   'username' => $email ,
@@ -83,6 +84,32 @@ class M_Main extends CI_Model
 						); 
 						
 			$this->db->insert('tbl_accounts', $accountData);
+		
+		//ADD SPONSOR INFORMATION TO DB
+		
+			$sponsor = "";
+			if($sponsorCode != "")
+			{
+				$sponsor = $sponsorCode;
+			}
+			else if($sponsorEmail != "")
+			{
+				$query = $this->db->query("SELECT member_id FROM tbl_members WHERE email='".$sponsorEmail."'");
+				
+				if($query->num_rows() > 0)
+				{
+					$row = $query->row();
+					$sponsor = $row->member_id;
+				}
+			}
+
+
+			$sponsorData = array(
+						   'fk_member_id' =>  $memberId,
+						   'fk_sponsor_id' => $sponsor
+						);
+						
+			$this->db->insert('tbl_sponsors', $sponsorData);
 			
 			return TRUE;
 		}
