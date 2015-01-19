@@ -52,6 +52,39 @@ class M_Main extends CI_Model
 			}
 		}
 		
+		public function createUserAndAccount($firstName, $lastName, $birthday, $gender, $country, $city, $address, $phone, $email, $password)
+		{
+			$memberId = uniqid('', TRUE);
+			
+			$memberData = array(
+						   'member_id' =>  $memberId,
+						   'firstName' => $firstName ,
+						   'lastName' => $lastName ,
+						   'birthDate' => $birthday ,
+						   'gender' => $gender ,
+						   'address' => $address ,
+						   'city' => $city ,
+						   'country' => $country ,
+						   'phone' => $phone ,
+						   'email' => $email ,
+						   'date' => gmdate('Y-m-d')
+						);
+						
+			$this->db->insert('tbl_members', $memberData);
+			
+			$accountData = array(
+						   'fk_member_id' =>  $memberId,
+						   'username' => $email ,
+						   'password' => md5($password) ,
+						   'accessLevel' => '1' ,
+						   'registrationDate' => gmdate('Y-m-d') ,
+						   'expireDate' => gmdate('Y-m-d', mktime(0,0,0,gmdate('m'),gmdate('d'),gmdate('Y')+1)) ,
+						   'enabled' => 'true'
+						); 
+						
+			$this->db->insert('tbl_accounts', $accountData);
+		}
+		
 		
 		public function validateLogin($username, $password)
 		{

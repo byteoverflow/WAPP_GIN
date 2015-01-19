@@ -41,12 +41,47 @@ class Main extends CI_Controller {
 			$validated = $this->m_main->validateSponsor($_POST["txtAssociationCode"], $_POST["txtEmail"]);
 			if($validated == TRUE)
 			{
-				echo "VALIDATED";
+				$this->load->view('v_register');
 			}
 			else if($validated == FALSE)
 			{
 				$this->load->view('v_validation');
 			}
+		}
+		else 
+		{
+			$this->join();
+		}
+	}
+	
+	public function submit()
+	{
+		if( 
+		isset($_POST["txtFirstName"]) 
+		&& isset($_POST["txtLastName"])
+		&& isset($_POST["txtBirthday"])
+		&& isset($_POST["txtGender"])
+		&& isset($_POST["txtCountry"])
+		&& isset($_POST["txtCity"])
+		&& isset($_POST["txtAddress"])
+		&& isset($_POST["txtPhone"])
+		&& isset($_POST["txtEmail"])
+		&& isset($_POST["txtPassword"])
+		&& isset($_POST["txtPasswordConfirm"])
+		)
+  		{
+			
+			$this->m_main->createUserAndAccount(
+			$_POST["txtFirstName"], 
+			$_POST["txtLastName"], 
+			$_POST["txtBirthday"], 
+			$_POST["txtGender"], 
+			$_POST["txtCountry"], 
+			$_POST["txtCity"], 
+			$_POST["txtAddress"], 
+			$_POST["txtPhone"], 
+			$_POST["txtEmail"], 
+			$_POST["txtPassword"]);
 		}
 		else 
 		{
