@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - Login</title>
+		<title>IAM Power - Content</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -34,58 +34,38 @@
 				</div>
 			</div>
 		</div>
-		<div id="mainParent">
-			<div id="sideMenu">
-			<nav>			
-				<img src="<?php echo base_url('assets/css/images/calendar.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/index') ?>">News &amp; Events</a><br>
-				<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/about') ?>">Success Mastery Course</a><br>
-				<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/faqs') ?>">Development Series</a><br>
-				<img src="<?php echo base_url('assets/css/images/video.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/contact') ?>">Webinars</a><br>
-				<img src="<?php echo base_url('assets/css/images/paper.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/contact') ?>">Legacy education</a><br>
-				<!-- <a href="<?php echo base_url('index.php/main/contact') ?>">Referal Program</a><br> -->
-			</nav>
-		</div>
-		<div id="contentCenter">
-			<table>
-				<tr>
-				 <td width="50%"></td>
-				 <td>						 	
-				 	<iframe width="500" height="395"
-					src="http://www.youtube.com/embed/j43q-5qkClM">
-					</iframe>						 	
-				 </td>
-				 <td width="50%"></td>							
-				</tr>
-				<tr>
-				 <td width="50%"></td>
-				 <td>						 	
-				 	<iframe width="500" height="395"
-					src="http://www.youtube.com/embed/j43q-5qkClM">
-					</iframe>						 	
-				 </td>
-				 <td width="50%"></td>							
-				</tr>	
-				<tr>
-				 <td width="50%"></td>
-				 <td>						 	
-				 	<iframe width="500" height="395"
-					src="http://www.youtube.com/embed/j43q-5qkClM">
-					</iframe>						 	
-				 </td>
-				 <td width="50%"></td>							
-				</tr>							
-			</table>
-		</div>
-			
+		
+		<div id="main">
+			<div class="5grid">
+				<div class="main-row">
+					<div class="4u-first">
+						<div id="sideMenu">
+							<nav>			
+								<img src="<?php echo base_url('assets/css/images/calendar.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/index') ?>">News &amp; Events</a><br>
+								<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/about') ?>">Success Mastery Course</a><br>
+								<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/faqs') ?>">Development Series</a><br>
+								<img src="<?php echo base_url('assets/css/images/video.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/contact') ?>">Webinars</a><br>
+								<img src="<?php echo base_url('assets/css/images/paper.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/contact') ?>">Legacy education</a><br>
+								<!-- <a href="<?php echo base_url('index.php/main/contact') ?>">Referal Program</a><br> -->
+							</nav>
+						</div>	
+					</div>				
+					<div class="8u">
+						<section class="right-content">
+							data
+						</section>
+					</div>
+				</div>
+			</div>
 		</div>
 		
-		<!-- <div id="footer-wrapper">
+		<div id="footer-wrapper">
 			
 			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 IAM Power Website.
 			</div>
 			
-		</div> -->
+		</div>
 	<!-- ********************************************************* -->
 	</body>
 </html>
