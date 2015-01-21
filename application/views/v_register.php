@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - Contact</title>
+		<title>IAM Power - Register</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -18,8 +18,7 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">
-					
+				<div class="12u-first">					
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -30,8 +29,7 @@
 							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
 							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
-					</header>				
-				
+					</header>
 				</div>
 			</div>
 		</div>
@@ -40,8 +38,7 @@
 				<div class="main-row">
 					<div class="12u-first">	
 							<h2>Sign up</h2>	
-							<p>Your sponsor is valid. Please use below form in order to register an account for IAM-Power club.</p>
-							
+							<p>Your sponsor is valid. Please use below form in order to register an account for IAM-Power club.</p>							
 							<table>
 								<tr>
 								 <td width="50%"></td>

@@ -229,6 +229,8 @@
 			background-image: linear-gradient(top, #008ead, #007b9d);
 			height: 86px;
 		}
+		
+		
 
 			#header h1 {
 				position: absolute;
@@ -239,11 +241,15 @@
 				letter-spacing: -2px;
 				line-height: 86px;
 			}
+			
+			
 
 			#header h1 a {
 				color: #fff;
 				text-decoration: none;
 			}
+			
+			
 			
 			#header nav {
 				position: absolute;
@@ -261,6 +267,8 @@
 					color: #fff;
 					padding: 0 25px 0 25px;
 				}
+				
+				
 				
 				#header nav a.current-page-item {
 					background-color: #007897;
@@ -282,6 +290,40 @@
 					background-image: -o-linear-gradient(top, #0782a0, #077d9b);
 					background-image: linear-gradient(top, #0782a0, #077d9b);
 					box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.05), 0px 0px 5px 1px rgba(255,255,255,0.05);
+				}
+				
+				#mainParent{
+					position: relative;
+				}
+				
+				#sideMenu {
+					position: absolute;
+					display: block;		
+					padding: 0 40px 0 40px;			
+					border: solid 1px #007294;			
+					background-color: #007294;
+					background-image: -moz-linear-gradient(top, #007294, #007294);
+					background-image: -webkit-linear-gradient(top, #007294, #007294);
+					background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#007294), to(#007294));
+					background-image: -ms-linear-gradient(top, #007294, #007294);
+					background-image: -o-linear-gradient(top, #007294, #007294);
+					background-image: linear-gradient(top, #007294, #007294);
+					width: 180px;
+					height: 100%;		
+				}
+				
+				#sideMenu nav a {
+					display: inline-block;
+					text-decoration: none;
+					color: #fff;
+					padding: 25px 0 0 0;
+				}
+				
+				#contentCenter
+				{
+					position: relative;
+					display: block;
+
 				}
 
 		#banner-wrapper {
