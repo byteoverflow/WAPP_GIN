@@ -305,6 +305,7 @@
 					background-image: linear-gradient(top, #007294, #007294);
 					width: 180px;
 					height: 350px;
+					border-radius: 5px;
 				}
 				
 				#sideMenu nav a {
