@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/loginFormStyle.css'); ?>" />
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
 		
-		<link rel="stylesheet" href="<?php echo base_url('assets/css/formsStyle.css'); ?>" />
+
 	</head>
 	<body>
 	<!-- ********************************************************* -->
