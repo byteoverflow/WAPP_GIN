@@ -5,7 +5,6 @@ class Main extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		
-		$this->load->helper("url");
 		$this->load->model('m_main');
 	}
 	
@@ -32,6 +31,11 @@ class Main extends CI_Controller {
 	
 	public function login(){
 		$this->load->view('v_login');
+	}
+	
+	public function logout(){
+		$this->session->sess_destroy();
+		$this->login();
 	}
 	
 	public function register(){
@@ -102,38 +106,87 @@ class Main extends CI_Controller {
 		}
 	}
 	
-	
 	public function content(){
-		if( isset($_POST["txtUsername"]) || isset($_POST["txtPassword"]))
+			
+		if(isset($_POST["txtUsername"]) && isset($_POST["txtPassword"]))
   		{  				
-			$validated = $this->m_main->validateLogin($_POST["txtUsername"], $_POST["txtPassword"]);
-			if($validated == TRUE)
+			$this->m_main->validateLogin($_POST["txtUsername"], $_POST["txtPassword"]);
+			
+			if($this->session->userdata('logged') == TRUE)			
 			{
-				$accessLevel = $this->m_main->getMemberLevel($_POST["txtUsername"], $_POST["txtPassword"]);
-				
-				if($accessLevel > 0)
-				{
-					$this->load->view('v_content');
-				}
-				else 
-				{
-					
-				}
-
+				$this->events();
 			}
-			else if($validated == FALSE)
+			else
 			{
-				$data['invalidLogin'] = '*Invalid login. Please try again!';
-				
+				$data['invalidLogin'] = '*Invalid login. Please try again!';				
 				$this->load->view('v_login', $data);
 			}
-		}
+		}		
 		else 
 		{
 			$this->login();
 		}
 	}
 	
+	public function events()
+	{
+		if($this->session->userdata('logged') == TRUE)			
+		{
+			$this->load->view('v_news_events');
+		}
+		else 
+		{
+			$this->load->view('v_login');	
+		}		
+	}
+	
+	public function mastery()
+	{
+		if($this->session->userdata('logged') == TRUE)			
+		{
+			$this->load->view('v_mastery_course');
+		}
+		else 
+		{
+			$this->load->view('v_login');	
+		}		
+	}
+	
+	public function development()
+	{
+		if($this->session->userdata('logged') == TRUE)			
+		{
+			$this->load->view('v_development_series');
+		}
+		else 
+		{
+			$this->load->view('v_login');	
+		}		
+	}
+	
+	public function webinars()
+	{
+		if($this->session->userdata('logged') == TRUE)			
+		{
+			$this->load->view('v_webinars');
+		}
+		else 
+		{
+			$this->load->view('v_login');	
+		}		
+	}
+	
+	public function legacy()
+	{
+		if($this->session->userdata('logged') == TRUE)			
+		{
+			$this->load->view('v_legacy_education');
+		}
+		else 
+		{
+			$this->load->view('v_login');	
+		}		
+	}
 
 //end of the Main controller
 }

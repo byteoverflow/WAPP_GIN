@@ -116,27 +116,39 @@ class M_Main extends CI_Model
 		
 		
 		public function validateLogin($username, $password)
-		{
+		{		
 			if($username && $password)
 			{
 				$passwordHash = md5($password);
 				
 				$query = $this->db->query("SELECT * FROM tbl_accounts WHERE username='".$username."' AND password='".$passwordHash."'");
-				
 				if ($query->num_rows() > 0)
 				{
-				   return TRUE;
+					$row = $query->row();
+					
+					//IF LOGIN USERNAME AND PASSWORD EXSISTS CREATE SESSION
+				   $sessionData = array(
+                   			'logged'  => TRUE,
+                   			'username'  => $row->username,
+                   			'memberId'     => $row->fk_member_id,
+                   			'accessLevel' => $row->accessLevel
+               		);
+					$this->session->set_userdata($sessionData);
+					
+					//IF LOGIN USERNAME AND PASSWORD EXSISTS CREATE COOKIE
+					// $cookieData = array(
+					    // 'name'   => 'MemberLogged',
+					    // 'value'  => $row->fk_member_id,
+					    // 'expire' => 86500,
+					    // // 'domain' => '.iam-power.com',
+					    // // 'path'   => '/',
+					    // // 'prefix' => 'iamp_',
+					    // // 'secure' => TRUE  
+					// );
+					// $this->input->set_cookie($cookieData);
 				}
-				else
-				{
-					return FALSE;	
-				}	
-			}
-			else 
-			{
-				return FALSE;	
-			}
 		}
+	}
 		
 		
 		public function getMemberLevel($username, $password)
