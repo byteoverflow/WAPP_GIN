@@ -45,11 +45,19 @@
 								<img src="<?php echo base_url('assets/css/images/paper.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/legacy') ?>">Legacy education</a><br>
 								<!-- <a href="<?php echo base_url('index.php/main/contact') ?>">Referal Program</a><br> -->
 							</nav>
+							<br><br><br>
+							Logged as: <br><br>
+							<?php
+								echo $this->session->userdata('username');
+								echo "<br>";								
+								echo $this->session->userdata('memberId');
+							?>							
 						</div>	
 					</div>				
 					<div class="8u">
+						
 						<section class="right-content">
-							data
+							<p>There are no events scheduled at this time.</p>
 						</section>
 					</div>
 				</div>

@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - News &amp; Events</title>
+		<title>IAM Power - Webinars</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -45,11 +45,43 @@
 								<img src="<?php echo base_url('assets/css/images/paper.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/legacy') ?>">Legacy education</a><br>
 								<!-- <a href="<?php echo base_url('index.php/main/contact') ?>">Referal Program</a><br> -->
 							</nav>
+							<br><br><br>
+							Logged as: <br><br>
+							<?php
+								echo $this->session->userdata('username');
+								echo "<br>";								
+								echo $this->session->userdata('memberId');
+							?>
 						</div>	
 					</div>				
 					<div class="8u">
 						<section class="right-content">
-							data
+							<?php
+								$accessLevel = $this->session->userdata('accessLevel');
+								for($x=1; $x<=intval($accessLevel); $x++)
+								{
+									$mediaDir = $_SERVER['DOCUMENT_ROOT']."/assets/media/$x/Webinars";
+									$mediaUrl = base_url('assets/media/'.$x.'/Webinars');
+									
+									foreach(glob("$mediaDir/*.mp4") as $file) 
+									{
+										//CREATE MEDIA ON WEB
+										$filename = basename($file);
+										echo $filename . "<br><br>";
+										echo '											
+												<video width="320" height="240" controls>
+													  <source src="/assets/media/'.$x.'/Webinars/'.$filename.'" type="video/mp4">													
+												</video> <br>';										
+											
+										//DOWNLOAD MEDIA 
+										$downloadButton = base_url('assets/css/images/download.png');
+										$downloadFile = $mediaUrl."/".$filename;											
+										echo '<br>
+									   <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br><br><br>';									
+										
+									}									
+								}
+							?>
 						</section>
 					</div>
 				</div>

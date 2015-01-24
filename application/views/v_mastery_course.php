@@ -45,26 +45,40 @@
 								<img src="<?php echo base_url('assets/css/images/paper.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/legacy') ?>">Legacy education</a><br>
 								<!-- <a href="<?php echo base_url('index.php/main/contact') ?>">Referal Program</a><br> -->
 							</nav>
+							<br><br><br>
+							Logged as: <br><br>
+							<?php
+								echo $this->session->userdata('username');
+								echo "<br>";								
+								echo $this->session->userdata('memberId');
+							?>
 						</div>	
 					</div>				
 					<div class="8u">
-						<section class="right-content">
-							
+						<section class="right-content">							
 							<?php
 								$accessLevel = $this->session->userdata('accessLevel');
 								for($x=1; $x<=intval($accessLevel); $x++)
 								{
-									$dir = $_SERVER['DOCUMENT_ROOT']."/assets/media/$x/SuccessMasteryCourse";
-									foreach(glob("$dir/*.mp3") as $file) 
+									$mediaDir = $_SERVER['DOCUMENT_ROOT']."/assets/media/$x/SuccessMasteryCourse";
+									$mediaUrl = base_url('assets/media/'.$x.'/SuccessMasteryCourse');
+									
+									foreach(glob("$mediaDir/*.mp3") as $file) 
 									{
+										//CREATE MEDIA ON WEB
 										$filename = basename($file);
-										echo $filename . "<br>";
-										echo '
-											
+										echo $filename . "<br><br>";
+										echo '											
 											 <audio controls>
 												  <source src="/assets/media/'.$x.'/SuccessMasteryCourse/'.$filename.'" type="audio/mpeg">													
-											</audio> ';
-										echo "<br><br>";
+											</audio> <br> ';
+											
+										//DOWNLOAD MEDIA 
+										$downloadButton = base_url('assets/css/images/download.png');
+										$downloadFile = $mediaUrl."/".$filename;											
+										echo '<br>
+									   <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br><br><br>';									
+										
 									}									
 								}
 							?>

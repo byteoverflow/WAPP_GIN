@@ -18,7 +18,7 @@
 			<div class="5grid">
 				<div class="12u-first">					
 					<header id="header">
-						<h1>LOGO</h1>
+						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index'); ?>" class="current-page-item">Home</a>
 							<a href="<?php echo base_url('index.php/main/about'); ?>">About</a>
