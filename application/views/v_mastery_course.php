@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - News &amp; Events</title>
+		<title>IAM Power - Success Mastery Course</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -49,7 +49,25 @@
 					</div>				
 					<div class="8u">
 						<section class="right-content">
-							data
+							
+							<?php
+								$accessLevel = $this->session->userdata('accessLevel');
+								for($x=1; $x<=intval($accessLevel); $x++)
+								{
+									$dir = $_SERVER['DOCUMENT_ROOT']."/assets/media/$x/SuccessMasteryCourse";
+									foreach(glob("$dir/*.mp3") as $file) 
+									{
+										$filename = basename($file);
+										echo $filename . "<br>";
+										echo '
+											
+											 <audio controls>
+												  <source src="/assets/media/'.$x.'/SuccessMasteryCourse/'.$filename.'" type="audio/mpeg">													
+											</audio> ';
+										echo "<br><br>";
+									}									
+								}
+							?>
 						</section>
 					</div>
 				</div>
