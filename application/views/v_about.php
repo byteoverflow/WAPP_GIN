@@ -41,7 +41,7 @@
 							 <td width="50%"></td>
 							 <td>						 	
 							 	<iframe width="500" height="395"
-								src="http://www.youtube.com/embed/j43q-5qkClM">
+								src="http://www.youtube.com/embed/7-k73uNFZ74">
 								</iframe>						 	
 							 </td>
 							 <td width="50%"></td>							
@@ -50,12 +50,35 @@
 						</section>
 						<section>							
 							<p>
-							The IAM Power Club, is a private membership club that was formed in Janury 2015, by a group of very successful people. The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. IAM Power is a global club and has Members and Associates all over the world. In short, IAM Power is a very unique success club, unlike any club that has ever been formed before. 
-							<br>IAM Power has put together what people call "the missing link," to help them attain what they want in life.	
-							IAM Power has put together what people call "the missing link," to help them attain what they want in life. There are multiple dynamics in attaining success and IAM Power has them all.
-							<br>
-							<br>
-							IAM Power is for anyone that wants more out of life; it is for people that have aspirations, goals and dreams. IAM Power is for entrepreneurs, small and large business owners, professionals, people who are self-employed, commissioned sales people, managers of people, anyone that wants to start their own business, and anyone that wants to improve certain areas of their life.
+							<i>Suksesi qëndron jo vetëm në atë sa din, por edhe në atë cilin e njeh!</i><br><br>
+							Krijimi i këtij klubi kërkon një eksperiencë të madhe me programat e tilla, kërkon përqëndrim dhe punë konstante që të krijohet dicka që nesër tjetrit do t’i shërbej. Njohuritë e përfituara në këtë klub do të jenë investimi i juaj më i mirë që keni bërë për vetveten. Nga ky klub do të dalin idetë tuaja më të guximshme dhe ambicioze, themelet e ardhëmirsë tuaj të plotësuar.<br> 
+							I am power është platformë e bazuar në dy principe: të keni informatat e sakta, dhe të krijohet burimi i sigurtë i resurseve. Kjo është formula të cilën të gjithë njerëzit e suksesshëm e kanë përdorur për 100 vitet e fundit.<br>
+							Secili i cili dëshiron që të jetë i suksesshëm duhet që ti gjej informatat e vërteta dhe kontaktet e duhura. Me shfrytëzimin e mencur të atyre kontakteve, dhe krijimin e mundësive të vërteta, secili nga ne mund të ketë jetën të cilën e dëshiron.<br>
+							I am power premton vetëm një gjë. Se vetëm nga një trajnim në këtë program Ju nuk do të jeni të njejtit ashtu sic ishit në ditën e parë kur i’u bashkangjitët klubit. Do të jeni të gatshëm të ndërmerrni hapat e sakta dhe të duhura, do të keni njohuritë e duhura dhe guximin që të arrini në suksesin dhe lumturinë e dëshiruar.
+							<br><br>
+							
+							<b>CKA PARAQET KLUBI I AM POWER?</b><br><br>
+							I am power paraqet klub i kufizuar për njerëz të cilët vërtet janë të interesuar të kenë sukses në jetë dhe të arrijnë qëllimet e tyre. I formuar në Janar në vititi 2015 klubi I am power është klubi i parë i këtij lloji i krijuar në Maqedoni, Kosovë dhe Shqipëri. 
+							Ideja parësore rrjedh nga klube të ngjajshme të botës të cilët ju ndihmuan shum njerëzve që të arrijnë suksesin e dëshiruar.<br><br>
+							I am power është klub privat me platformë të suksesit, në të cilën anëtarët e saj, me anëtarësimin e tyre përfitojnë numër të madh të mundësive për zhvillim. 
+							Përmbajtja e këtij klubi parasheh programë të trajnimeve të certifikuara dhe seminare më ndihmën e të cilëve, anëtarët do të krijojnë ardhmërinë e tyre edhe më të mirë. Ky program është i ndarë në disa nivele dhe hapa, deri tek përfundimi i trajnimit me c’rast përpos njohurive, kthjellimit dhe inspirimit do të përfitohet një certifikat, certifikat i cili do të ndihmojë në përparimin e mëtutjeshëm.
+							<br><br>
+							
+							<b>CKA PËRFITONI NGA ANËTARËSIMI NË KLUBIN I AM POWER?</b><br><br>
+							Përfitimet nga klubi I am power janë të mëdha. Programa është e ndarë në disa faza – hapa, në esenc nivele, ashtu sic rrjedh programa anëtarët avansohen nga një nivel në tjetrin. 
+							Secili anëtar duhet t’i kalojë të gjitha nivelet që të arrij aftësinë që të manipulojë me jetën e vet , dhe të tejkalojë të gjitha kufizimet të cilat deri sot nuk e kanë lejuar të arrij suksesin e dëshiruar.<br> 
+							I am power programa do të ndikojë pozitivisht tek secili anëtar, pa pasur parasysh qëllimin e tij a është të avancoj biznesin egzistues, apo të zhvillojë një biznes të ri. 
+							<br><br>
+							Përmbajtjet e kësaj programe ofrojnë mundësi për:<br>
+							 <ul style="list-style-type:square">
+							  <li>Të mësoni formulën e saktë që të manifestoni jetën tuaj dhe atë që doni nga jeta.</li>
+							  <li>Të ndërtoni marrëdhënie më të mira me të dashurit tuaj dhe me partnerët e punës tuaj.</li>
+							  <li>Të mësoni për lidership dhe të përmirësoni aftësitë tuaja për menaxhim dhe udhëheqje. </li>
+							  <li>Të bëheni një komunikator më i mirë, dhe një folës publik më i aftë. </li>
+							  <li>Mundësi biznesi dhe bashkëpunimi me anëtarët e tjerë. </li>							  
+							</ul> 
+							
+							
 							</p>							
 						</section>					
 					</div>

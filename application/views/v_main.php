@@ -48,13 +48,13 @@
 						<div class="4u-first">
 							<h2>About the club</h2>
 							<img src="<?php echo base_url('assets/css/images/iampower_small.png'); ?>" alt="" class="left" />
-							<p>The IAM Power Club, is a private membership club that was formed in Janury 2015, 
-								by a group of very successful people. 
-								The purpose of the club is to enable people to "Have, Be or Do" whatever they want in life. 
-								IAM Power is a global club and has Members and Associates all over the world. 
-								In short, IAM Power is a very unique success club, unlike any club that has ever been formed before.
-								<br>
-								IAM Power has put together what people call "the missing link," to help them attain what they want in life.
+							<p>
+								Suksesi qëndron jo vetëm në atë sa din, por edhe në atë cilin e njeh!<br>
+								Krijimi i këtij klubi kërkon një eksperiencë të madhe me programat e tilla, 
+								kërkon përqëndrim dhe punë konstante që të krijohet dicka që nesër tjetrit do t’i shërbej. 
+								Njohuritë e përfituara në këtë klub do të jenë investimi i juaj më i mirë që keni bërë për vetveten. 
+								Nga ky klub do të dalin idetë tuaja më të guximshme dhe ambicioze, themelet e ardhëmirsë tuaj të plotësuar.
+								I am power është platformë e bazuar në dy principe: të keni informatat e sakta, dhe të krijohet burimi i sigurtë i resurseve.
 							</p>
 											
 						</div>
@@ -62,9 +62,11 @@
 							<h2>About Mimoza Thaqi</h2>							
 								<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
 								<p>
-									Qëllimet që i kam vënë në jetë, i kam arritur hap pas hapi.
-									Tani qëllim imi është që t’u shërbej njerëzve sa më shumë që është e mundur, që edhe ato t’i sendërtojnë ëndrrat dhe qëllimit e tyre!
-									Çdo sukses dhe çdo arritje e një personi, që unë kam pasur fatin ta njoh dhe t’i bëj një shërbim, është sukses dhe lumturi për mua...									
+									Hapi i parë drejt suksesit është të kuptojmë që ne jemi të vetmit përgjegjës për jetën tonë.
+									<br>
+									“Rruga drejt suksesit është besimi në vete, në qëllimin tonë dhe në hapat të cilat i ndërmarrim për arritjen e atij qëllimi. 
+									Secili nga ne duhet të kuptojë se vetëm nëse arrijmë t’i largojmë të gjitha ndikimet negative nga jeta, të cilat n’a kufizojnë dhe n’a ulin vetbesimin. 
+									  									
 								</p>
 								
 						</div>
@@ -83,8 +85,7 @@
 						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<!-- <a href="<?php echo base_url('index.php/main/meetme') ?>" class="button">more</a> -->
-						<a href="http://www.mimozathaqi.com" target="_blank" class="button">more</a>
+						<a href="http://mimozathaqi.com/corona-theme/" target="_blank" class="button">more</a>
 					</div>
 					<div class="4u" style="text-align: center">
 						<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>
