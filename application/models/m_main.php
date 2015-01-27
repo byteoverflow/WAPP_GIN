@@ -73,10 +73,14 @@ class M_Main extends CI_Model
 			$this->db->insert('tbl_members', $memberData);
 			
 		//ADD ACCOUNT INFORMATION TO DB
+				$saltPrefix = 'iam';
+				$saltSufix = 'power';
+				$passwordSalted = $saltPrefix . $password . $saltSufix;
+		
 			$accountData = array(
 						   'fk_member_id' =>  $memberId,
 						   'username' => $email ,
-						   'password' => md5($password) ,
+						   'password' => md5($passwordSalted) ,
 						   'accessLevel' => '1' ,
 						   'registrationDate' => gmdate('Y-m-d') ,
 						   'expireDate' => gmdate('Y-m-d', mktime(0,0,0,gmdate('m'),gmdate('d'),gmdate('Y')+1)) ,
@@ -119,9 +123,13 @@ class M_Main extends CI_Model
 		{		
 			if($username && $password)
 			{
-				$passwordHash = md5($password);
+				$saltPrefix = 'iam';
+				$saltSufix = 'power';
+				$passwordSalted = $saltPrefix . $password . $saltSufix;
 				
-				$query = $this->db->query("SELECT * FROM tbl_accounts WHERE username='".$username."' AND password='".$passwordHash."'");
+				$passwordHash = md5($passwordSalted);
+				
+				$query = $this->db->query("SELECT * FROM tbl_accounts WHERE username='".$username."' AND password='".$passwordHash."' AND enabled ='true'");
 				if ($query->num_rows() > 0)
 				{
 					$row = $query->row();

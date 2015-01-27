@@ -38,7 +38,7 @@
 					<div class="12u-first">	
 						<section>
 							<h2>ACCOUNT REGISTRATION COMPLETED SUCCESSFULLY</h2>
-							<p>Congratulations!!! Your registration process has completed successfully. <br> Please use the login page to sign into your account and use the opportunities of the IAM-Power club.</p>
+							<p>Congratulations!!! Your registration process has completed successfully. Message with login details is sent to your email. <br> Please use the login page to sign into your account and enjoy the opportunities of the IAM-Power club.</p>
 						</section>
 					</div>
 				</div>

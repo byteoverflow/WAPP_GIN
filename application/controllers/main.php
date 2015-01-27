@@ -96,7 +96,45 @@ class Main extends CI_Controller {
 			
 			if($res == TRUE)
 			{
-				$this->load->view('v_registrationCompleted');
+				//SEND EMAIL WITH USERNAME AND PASSWORD TO THE MEMBER
+				
+				$config = Array
+				(
+				  'protocol' => 'smtp',
+				  'smtp_host' => 'smtpout.europe.secureserver.net',
+				  'smtp_port' => 80,
+				  'smtp_user' => 'support@iam-power.com', 
+				  'smtp_pass' => 'Sot5122014',
+				  'mailtype' => 'html',
+				  'charset' => 'iso-8859-1',
+				  'wordwrap' => TRUE 
+			    );
+			
+			      $message = '
+			      Congratulations! You have successfully created an account for IAM-Power Club.
+			      <br><br>
+			      Please use below login information in order to sign into IAM-Power Club: <br>
+			      Username: '.$_POST['txtEmail'].' <br>
+			      Password: '.$_POST['txtPassword'].' <br>
+			      Login page:  <a href="http://iam-power.com/index.php/main/login/">Login page</a>			      
+			      ';
+			      $this->load->library('email', $config);
+			      $this->email->set_newline("\r\n");
+			      $this->email->from('support@iam-power.com'); 
+			      $this->email->to($_POST['txtEmail']);
+			      $this->email->subject('Successfully created account for IAM-Power club');
+			      $this->email->message($message);
+			      if($this->email->send())
+				  {
+				      $this->load->view('v_registrationCompleted');
+				  }
+			     else
+			     {
+			     	show_error($this->email->print_debugger());
+			     }
+				
+			//LOAD SUCCESSFULLY CREATED ACCOUNT VIEW
+				
 			}
 			
 		}
