@@ -137,7 +137,7 @@
 		background-image: -o-linear-gradient(top, #008dad, #007b9d);
 		background-image: linear-gradient(top, #008dad, #007b9d);
 		border-radius: 10px;
-		text-transform: lowercase;
+		/*text-transform: lowercase;*/
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;

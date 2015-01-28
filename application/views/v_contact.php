@@ -29,7 +29,6 @@
 							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/contact') ?>" class="current-page-item">Contact Us</a>
 							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
 					</header>				

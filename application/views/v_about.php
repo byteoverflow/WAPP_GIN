@@ -24,7 +24,6 @@
 							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About</a>
 							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
 							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/contact') ?>">Contact Us</a>
 							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
 						</nav>
 					</header>
@@ -145,7 +144,17 @@
 							Nga Kosova paratë në këtë llogari te TEB bankes:<br>
 							AVNI THAQI 20-13-000079752273<br>
 							Hani i Elezit
-							</p>							
+							</p>
+							<br><br>
+							<table>
+							<tr>
+							 <td width="50%"></td>
+							 <td>						 	
+							 	<a href="<?php echo base_url('index.php/main/contact') ?>" class="button">Contact</a>					 	
+							 </td>
+							 <td width="50%"></td>							
+							</tr>						
+						</table>								
 						</section>					
 					</div>
 				</div>
