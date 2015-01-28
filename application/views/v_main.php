@@ -197,7 +197,6 @@
 				</div>	
 				</div>				
 			</div>
-		</div>
 		<div id="footer-wrapper">			
 			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 IAM Power Website.

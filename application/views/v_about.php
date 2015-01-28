@@ -55,16 +55,16 @@
 							I am power është platformë e bazuar në dy principe: të keni informatat e sakta, dhe të krijohet burimi i sigurtë i resurseve. Kjo është formula të cilën të gjithë njerëzit e suksesshëm e kanë përdorur për 100 vitet e fundit.<br>
 							Secili i cili dëshiron që të jetë i suksesshëm duhet që ti gjej informatat e vërteta dhe kontaktet e duhura. Me shfrytëzimin e mencur të atyre kontakteve, dhe krijimin e mundësive të vërteta, secili nga ne mund të ketë jetën të cilën e dëshiron.<br>
 							I am power premton vetëm një gjë. Se vetëm nga një trajnim në këtë program Ju nuk do të jeni të njejtit ashtu sic ishit në ditën e parë kur i’u bashkangjitët klubit. Do të jeni të gatshëm të ndërmerrni hapat e sakta dhe të duhura, do të keni njohuritë e duhura dhe guximin që të arrini në suksesin dhe lumturinë e dëshiruar.</b>
-							<br><br>
+							<br>
 							
-							<b>CKA PARAQET KLUBI I AM POWER?</b><br><br>
+							<div id="aboutQuestion">CKA PARAQET KLUBI I AM POWER?</div><br>
 							I am power paraqet klub i kufizuar për njerëz të cilët vërtet janë të interesuar të kenë sukses në jetë dhe të arrijnë qëllimet e tyre. I formuar në Janar në vititi 2015 klubi I am power është klubi i parë i këtij lloji i krijuar në Maqedoni, Kosovë dhe Shqipëri. 
 							Ideja parësore rrjedh nga klube të ngjajshme të botës të cilët ju ndihmuan shum njerëzve që të arrijnë suksesin e dëshiruar.<br>
 							I am power është klub privat me platformë të suksesit, në të cilën anëtarët e saj, me anëtarësimin e tyre përfitojnë numër të madh të mundësive për zhvillim. 
 							Përmbajtja e këtij klubi parasheh programë të trajnimeve të certifikuara dhe seminare më ndihmën e të cilëve, anëtarët do të krijojnë ardhmërinë e tyre edhe më të mirë. Ky program është i ndarë në disa nivele dhe hapa, deri tek përfundimi i trajnimit me c’rast përpos njohurive, kthjellimit dhe inspirimit do të përfitohet një certifikat, certifikat i cili do të ndihmojë në përparimin e mëtutjeshëm.
 							<br><br>
 							
-							<b>CKA PËRFITONI NGA ANËTARËSIMI NË KLUBIN I AM POWER?</b><br><br>
+							<div id="aboutQuestion">CKA PËRFITONI NGA ANËTARËSIMI NË KLUBIN I AM POWER?</div><br>
 							Përfitimet nga klubi I am power janë të mëdha. Programa është e ndarë në disa faza – hapa, në esenc nivele, ashtu sic rrjedh programa anëtarët avansohen nga një nivel në tjetrin. 
 							Secili anëtar duhet t’i kalojë të gjitha nivelet që të arrij aftësinë që të manipulojë me jetën e vet , dhe të tejkalojë të gjitha kufizimet të cilat deri sot nuk e kanë lejuar të arrij suksesin e dëshiruar.<br> 
 							I am power programa do të ndikojë pozitivisht tek secili anëtar, pa pasur parasysh qëllimin e tij a është të avancoj biznesin egzistues, apo të zhvillojë një biznes të ri. 
@@ -78,7 +78,7 @@
 							  <img src="<?php echo base_url('assets/css/images/arrow.png'); ?>" alt="">&nbsp;&nbsp;&nbsp;Mundësi biznesi dhe bashkëpunimi me anëtarët e tjerë.						  
 
 							<br><br>
-							<b>CILA ËSHTË PROGRAMA TË CILËN JU DO TË PËRFITONI NGA ANËTARËSIMI NË KËTË KLUB? </b><br><br>
+							<div id="aboutQuestion">CILA ËSHTË PROGRAMA TË CILËN JU DO TË PËRFITONI NGA ANËTARËSIMI NË KËTË KLUB?</div><br>
 							Kjo programë ofron një numër të madh të mundësive të ndara në disa pjesë, dhe të gjitha aktivitetet do të kenë një temë të ndërlidhur me tërë përmbajtjen. Secili anëtar në profilin e tij personal do të ketë programën mujore apo vjetore, ashtu që gjithmonë do të jetë i informuar me rrjedhën e aktiviteteve...<br>
 							Nga programa të cilën ju do të ndjekni, Ju sigurojmë që do të përfitoni vujeset:<br><br>
 
@@ -103,7 +103,7 @@
 							Në fund të rrugëtimit tuaj në programën I am power, Ju do të keni më shumë vetbesim, do të jeni më të motivuar dhe më të përgatitur që të përfitoni botën. 
 							Do të hapëroni sigurt në ardhmërinë tuaj dhe do të krijoni një botë më të lumtur. 
 							<br><br>
-							<b>KUSH MUND TË JETË ANËTAR NË KLUBIN I AM POWER DHE SI MUND TË BËHENI ANËTAR? </b><br><br>
+							<div id="aboutQuestion">KUSH MUND TË JETË ANËTAR NË KLUBIN I AM POWER DHE SI MUND TË BËHENI ANËTAR?</div><br>
 							Anëtarë të këtij klubi mund të jenë të gjithë të cilët janë të interesuar të kenë sukses në jetë dhe të realizojnë ëndërrat e tyre. <br>
 							I am power është program për ndërmarrës, për pronarë të bizneseve të vogla dhe të mëdha, për njerëz me profil të profesionalizuar, punëtorë, menaxher, për të gjithë që janë të interesuar të përmirësojnë disa nga fushat e tyre të jetës, dhe të krijojnë një ardhmëri më të mirë.<br><br>
 							Këto janë hapat që të bëheni anëtarë në klubin I am power:<br>
@@ -113,8 +113,8 @@
 							<br>
 							Pas dërgimit të email – it tuaj do të rishikohet pagesa Juaj, dhe më pas do të ju dërgohet në e-mail kodi Juaj i anëtarësimit. Pas marrjes të kodit ju officialisht jeni <b>ANËTARË</b> ne klubin <b>I AM POWER!</b>
 							<br><br>
-							<b>Opsionet për pagesat:</b><br>
-							<b>1. Detajet për Pagesat me Transfer të Bankare nga Maqedonia</b><br>
+							<b>Opsionet për pagesat:</b><br><br>
+							<b>1. Detajet për Pagesat me Transfer të Bankare nga Maqedonia</b><br><br>
 							<img src="<?php echo base_url('assets/css/images/arrow.png'); ?>" alt="">&nbsp;&nbsp;&nbsp;<b>Western Union ose  Moneygram</b> (<b>nga jashtë</b> Maqedonisë)<br>
 							Pagesa konfirmohet brenda ditës; komisione të përballueshme.<br><br>
 							Në emër të drejtorit të Kompanisë Sun and Stars:<br>
