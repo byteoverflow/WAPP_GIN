@@ -47,34 +47,34 @@
 								<tr>
 								 <td width="50%"></td>
 								 <td>						 	
-								 	<form class="form2" action="index.html">
+								 	<form class="form2" action="<?php echo base_url('index.php/main/contactus'); ?>" method="post">
 								<div class="formtitle">Contact Us</div>
 					
 								<div class="input">
 									<div class="inputtext">Your Name: </div>
 									<div class="inputcontent">					
-										<input type="text" />					
+										<input type="text" name="txtName" required="required" />					
 									</div>
 								</div>
 					
 								<div class="input">
 									<div class="inputtext">Your Surname: </div>
 									<div class="inputcontent">					
-										<input type="text" />					
+										<input type="text" name="txtSurname" required="required" />					
 									</div>
 								</div>
 					
 								<div class="input">
 									<div class="inputtext">Your Email: </div>
 									<div class="inputcontent">					
-										<input type="text" />					
+										<input type="text" name="txtEmail" required="required" />					
 									</div>
 								</div>
 					
 								<div class="inputtextbox nobottomborder">
 									<div class="inputtext">Message: </div>
 									<div class="inputcontent">					
-										<textarea class="textarea"></textarea>					
+										<textarea name="txtMessage" class="textarea"></textarea>					
 									</div>
 								</div>
 					
@@ -83,7 +83,20 @@
 								</div>					
 							</form>										 	
 								 </td>
-								 <td width="50%"></td>							
+								 <td width="50%"></td>								 					
+								</tr>
+								<tr style="height: 10px;"></tr>	
+								<tr>									
+									<td width="50%"> </td>	
+									<td style="text-align: center; color:#008dab"> 
+									<?php 
+										if(isset($messageStatus))
+										{
+											echo $messageStatus;
+										}
+									?>
+									</td>	
+									<td width="50%"> </td>									
 								</tr>						
 							</table>
 						</div>

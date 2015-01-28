@@ -129,8 +129,8 @@ class Main extends CI_Controller {
 				      $this->load->view('v_registrationCompleted');
 				  }
 			     else
-			     {
-			     	show_error($this->email->print_debugger());
+			     {//anyway open registration completed page because the the user is created in database.
+			     	$this->load->view('v_registrationCompleted');
 			     }
 				
 			//LOAD SUCCESSFULLY CREATED ACCOUNT VIEW
@@ -141,6 +141,54 @@ class Main extends CI_Controller {
 		else 
 		{
 			$this->join();
+		}
+	}
+
+	public function contactus()
+	{
+		if( 
+		isset($_POST["txtName"]) 
+		&& isset($_POST["txtSurname"])
+		&& isset($_POST["txtEmail"])
+		&& isset($_POST["txtMessage"])		
+		)
+  		{  			
+				$config = Array
+				(
+				  'protocol' => 'smtp',
+				  'smtp_host' => 'smtpout.europe.secureserver.net',
+				  'smtp_port' => 80,
+				  'smtp_user' => 'contact@iam-power.com', 
+				  'smtp_pass' => 'Sot5122014',
+				  'mailtype' => 'html',
+				  'charset' => 'iso-8859-1',
+				  'wordwrap' => TRUE 
+			    );
+			
+			      $message = '
+			      You have a message from '.$_POST['txtName'].' '.$_POST['txtSurname'].' with email address '.$_POST['txtEmail'].'<br><br>';
+				  $message = $message . $_POST['txtMessage'];
+				  
+			      $this->load->library('email', $config);
+			      $this->email->set_newline("\r\n");
+			      $this->email->from('contact@iam-power.com'); 
+			      $this->email->to('contact@iam-power.com');
+			      $this->email->subject('Contact email from '.$_POST['txtName'].' '.$_POST['txtSurname'].'');
+			      $this->email->message($message);
+			      if($this->email->send())
+				  {
+				      $data['messageStatus'] = 'Message sent successfully.';				
+					  $this->load->view('v_contact', $data);
+				  }
+			      else
+			      {
+			     	  $data['messageStatus'] = 'Unable to send email.';				
+					  $this->load->view('v_contact', $data);
+			      }				
+		}
+		else 
+		{
+			$this->contact();
 		}
 	}
 	
