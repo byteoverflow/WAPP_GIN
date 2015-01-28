@@ -87,7 +87,8 @@
 		  width: 1100px; 
 		  height:600px;
 		  padding:10px;
-		  background-color:#ffffff;
+		  color:#FFFFFF;
+		  background-color:#007294;
 		}
 		</style>
 	</head>
