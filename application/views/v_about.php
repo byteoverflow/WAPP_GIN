@@ -70,7 +70,7 @@
 							I am power programa do të ndikojë pozitivisht tek secili anëtar, pa pasur parasysh qëllimin e tij a është të avancoj biznesin egzistues, apo të zhvillojë një biznes të ri. 
 							<br><br>
 							Përmbajtjet e kësaj programe ofrojnë mundësi për:<br>
-							 <ul style="list-style-type:square">
+							 <ul>
 							  <li>Të mësoni formulën e saktë që të manifestoni jetën tuaj dhe atë që doni nga jeta.</li>
 							  <li>Të ndërtoni marrëdhënie më të mira me të dashurit tuaj dhe me partnerët e punës tuaj.</li>
 							  <li>Të mësoni për lidership dhe të përmirësoni aftësitë tuaja për menaxhim dhe udhëheqje. </li>
