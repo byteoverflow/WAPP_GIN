@@ -84,7 +84,7 @@ class M_Main extends CI_Model
 						   'accessLevel' => '1' ,
 						   'registrationDate' => gmdate('Y-m-d') ,
 						   'expireDate' => gmdate('Y-m-d', mktime(0,0,0,gmdate('m'),gmdate('d'),gmdate('Y')+1)) ,
-						   'enabled' => 'true'
+						   'enabled' => 'false'
 						); 
 						
 			$this->db->insert('tbl_accounts', $accountData);
