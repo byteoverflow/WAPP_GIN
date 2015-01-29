@@ -13,12 +13,17 @@
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-		<script type="text/javascript">
+		<script src="<?php echo base_url('assets/orbitSlider/js/jquery.min.js'); ?>" type="text/javascript"></script>
+		<script src="<?php echo base_url('assets/orbitSlider/js/jquery.orbit.min.js'); ?>" type="text/javascript"></script>
+		<link rel="stylesheet" href="<?php echo base_url('assets/orbitSlider/css/orbit.css'); ?>">
 		
-		var visited = sessionStorage.getItem('visited');
-		if (!visited) 
-		{
-			$(document).ready(function() {	
+		<script type="text/javascript">
+     		
+	     //PRELOAD POPUP	
+	     	var visited = sessionStorage.getItem('visited');
+			if (!visited) 
+			{
+				$(document).ready(function() {	
 			
 					var id = '#dialog';
 				
@@ -61,7 +66,30 @@
 				
 			});
 			sessionStorage.setItem('visited', true);
-		}
+			}
+     		
+     		//IMAGE SLIDER
+     		$(window).load(function() 
+     		{
+				$('#featured').orbit({
+     				animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+     				animationSpeed: 800,                // how fast animtions are
+     				timer: true, 			 // true or false to have the timer
+     				advanceSpeed: 4000, 		 // if timer is enabled, time between transitions 
+     				pauseOnHover: false, 		 // if you hover pauses the slider
+     				startClockOnMouseOut: false, 	 // if clock should start on MouseOut
+     				startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
+     				directionalNav: false, 		 // manual advancing directional navs
+     				captions: true, 			 // do you want captions?
+     				captionAnimation: 'fade', 		 // fade, slideOpen, none
+     				captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
+     				bullets: true,			 // true or false to activate the bullet navigation
+     				bulletThumbs: false,		 // thumbnails for the bullets
+     				bulletThumbLocation: '',		 // location from this file where thumbs will be
+     				afterSlideChange: function(){} 	 // empty function 
+				});
+     		});
+     		
 		</script>
 		
 		<style type="text/css"> 
@@ -137,13 +165,21 @@
 		</div>
 		<div id="banner-wrapper">		
 			<table>
+				<tr style="height: 10px"></tr>
 				<tr>
 				 <td width="50%"></td>
 				 <td>
-					<img src="<?php echo base_url('assets/css/images/iampower_banner.jpg'); ?>" alt="IAMPower banner" >
+					<div id="featured"> 
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />						
+					</div>
+			<!-- Captions for Orbit -->
+					<span class="orbit-caption" id="image1Caption">Mimoza Thaqi - rruga drejt një zhvillimi personal motivues</span>
+					<span class="orbit-caption" id="image2Caption">UNË JAM FUQIA - shkalla e parë e suksesit</span>							
 				 </td>
 				 <td width="50%"></td>							
-				</tr>						
+				</tr>
+				<tr style="height: 10px"></tr>						
 			</table>			
 		</div>
 		<div id="main">
