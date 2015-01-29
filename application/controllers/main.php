@@ -116,7 +116,7 @@ class Main extends CI_Controller {
 			      Please use below login information in order to sign into IAM-Power Club: <br>
 			      Username: '.$_POST['txtEmail'].' <br>
 			      Password: '.$_POST['txtPassword'].' <br>
-			      Login page:  <a href="http://iam-power.com/index.php/main/login/">Login page</a>			      
+			      Login page:  <a href="http://www.iam-power.com/index.php/main/login">Login page</a>			      
 			      ';
 			      $this->load->library('email', $config);
 			      $this->email->set_newline("\r\n");
