@@ -228,7 +228,7 @@
 						<a href="http://mimozathaqi.com/corona-theme/" target="_blank" class="button">more</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="http://sunandstars.com.mk/" target="_blank" class="button">visit</a>
+						<a href="http://mimozathaqi.com/bizneset-e-mimoza-thaqi/" target="_blank" class="button">visit</a>
 					</div>
 				</div>	
 				</div>				
