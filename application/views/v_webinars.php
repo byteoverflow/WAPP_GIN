@@ -68,7 +68,7 @@
 										$filename = basename($file);
 										echo $filename . "<br><br>";
 										echo '											
-												<video width="320" height="240" controls>
+												<video width="480" height="320" controls>
 													  <source src="/assets/media/'.$x.'/Webinars/'.$filename.'" type="video/mp4">													
 												</video> <br>';										
 											
