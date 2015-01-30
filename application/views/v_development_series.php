@@ -68,7 +68,7 @@
 										$filename = basename($file);
 										echo $filename . "<br><br>";
 										echo '											
-											 <audio preload="none" controls>
+											 <audio preload="metadata" controls>
 												  <source src="/assets/media/'.$x.'/DevelopmentSeries/'.$filename.'" type="audio/mpeg">													
 											</audio> <br>';
 											
