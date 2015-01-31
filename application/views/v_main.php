@@ -113,19 +113,19 @@
 		}
 		#boxes #dialog {
 		  width: 1200px; 
-		  height:632px;
+		  height:600px;
 		  padding:10px;
 		  color: #000000;
 		  background-color:#FFFFFF;
 		  font-family: "Century Gothic";
-		  font-size: 16px;
+		  font-size: 15px;
 		}
 		</style>
 	</head>
 	<body>
 		<div id="boxes">
-			<div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">			
-			
+			<div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
+				
 			<b>Mirë se erdhët në Klubin  UNË JAM FUQIA – I Am Power</b> <br><br>
 			Suksesi fillon në momentin që i themi vetvetes që jemi të gatshëm të punojmë në maksimum që të arrijmë deri tek kënaqësitë e dëshiruara. Klubi të cilin Ju tani vizitoni dhe të cilit shum shpejt do t’i bashkangjiteni, nuk ofron një tregim ngushëllues me përshtypje mesatare, por është një frymëzim i vërtetë për të gjithë ata të cilët kanë nevoj për inspirim dhe motivim. 
 			<br><br>
@@ -148,7 +148,7 @@
 			 Uroj që së shpejti t’i bashkangjiteni karavanit të suksesit të cilin klubi <b>Unë Jam Fuqia</b> është duke krijuar. Ndryshimet fillojnë me hapa të vogla, rrugëtimi është sfidues, por fundi gjithmon arsyeton mundin. Hapi i parë i Juaji le të jetë anëtarësimi në këtë klub, e më pas vet do të Jeni të aftë të vërejni që <b>Klubi Unë Jam Fuqia</b> është invetsimi më i mirë që Ju e bëtë për biznesin tuaj.
 			 <a href="#" class="close">Close</a> 
 			 <br>
-			 <img src="<?php echo base_url('assets/css/images/signature.png'); ?>" alt="Image not found"/>
+			 <img style="float: right" src="<?php echo base_url('assets/css/images/signature.png'); ?>" alt="Image not found"/>
 		</div>
 		<!-- Mask to cover the whole screen -->
 		<div style="width: 1478px; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
@@ -213,8 +213,7 @@
 									Hapi i parë drejt suksesit është të kuptojmë që ne jemi të vetmit përgjegjës për jetën tonë.
 									<br>
 									“Rruga drejt suksesit është besimi në vete, në qëllimin tonë dhe në hapat të cilat i ndërmarrim për arritjen e atij qëllimi. 
-									Secili nga ne duhet të kuptojë se vetëm nëse arrijmë t’i largojmë të gjitha ndikimet negative nga jeta, të cilat n’a kufizojnë dhe n’a ulin vetbesimin. 
-									  									
+									Secili nga ne duhet të kuptojë se vetëm nëse arrijmë t’i largojmë të gjitha ndikimet negative nga jeta, të cilat n’a kufizojnë dhe n’a ulin vetbesimin.
 								</p>
 								
 						</div>
