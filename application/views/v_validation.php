@@ -16,7 +16,9 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">					
+				<div class="12u-first">	
+					<br>				
+					<img src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />				
 					<header id="header">
 						<h1></h1>
 						<nav>

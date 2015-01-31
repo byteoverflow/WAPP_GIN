@@ -17,7 +17,8 @@
 		<div id="header-wrapper">
 			<div class="5grid">
 				<div class="12u-first">
-					
+					<br>				
+					<img src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -37,7 +38,7 @@
 			<div class="5grid">
 				<div class="main-row">
 					<div class="12u-first">	
-							<h2>SË SHPEJTI do të pubikohen të rrejat rreth trajnimeve</h2>	
+							<h2>SË SHPEJTI do të pubikohen të rrejat rreth trajnimeve.</h2>	
 					</div>
 				</div>
 			</div>

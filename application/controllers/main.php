@@ -34,21 +34,21 @@ class Main extends CI_Controller {
 	}
 	
 	
-	public function join(){
-		$this->load->view('v_join');
-	}
+	// public function join(){
+		// $this->load->view('v_join');
+	// }
 	
 	public function contact(){
 		$this->load->view('v_contact');
 	}
 	
-	public function login(){
-		$this->load->view('v_login');
-	}
+	// public function login(){
+		// $this->load->view('v_login');
+	// }
 	
 	public function logout(){
 		$this->session->sess_destroy();
-		$this->login();
+		$this->kontakt();
 	}
 	
 	public function register(){
@@ -218,7 +218,7 @@ class Main extends CI_Controller {
 			else
 			{
 				$data['invalidLogin'] = '*Invalid login. Please try again!';				
-				$this->load->view('v_login', $data);
+				$this->load->view('v_kontakt', $data);
 			}
 		}		
 		else 

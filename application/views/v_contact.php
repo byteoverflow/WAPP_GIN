@@ -13,15 +13,14 @@
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
 		
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/formsStyle.css'); ?>" />
-		
-		
 	</head>
 	<body>
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
 				<div class="12u-first">
-					
+					<br>				
+					<img src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -41,9 +40,7 @@
 			<div class="5grid">
 				<div class="main-row">
 					<div class="12u-first">	
-							<h2>Contact Us</h2>	
-							<p>Please use the form below to contact the IAM Power club with any questions and/or comments that you may have. If a response is required, you will receive one promptly.</p>
-							
+							<!-- <h2>Contact Us</h2>	 -->
 							<table>
 								<tr>
 								 <td width="50%"></td>

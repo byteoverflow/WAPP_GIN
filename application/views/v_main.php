@@ -156,7 +156,9 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">					
+				<div class="12u-first">	
+					<br>				
+					<img src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -178,12 +180,10 @@
 				 <td width="50%"></td>
 				 <td>
 					<div id="featured"> 
-						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>" alt="Image not found" data-caption="#image1Caption" />
-						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />						
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>"  alt="Image not found" data-caption="#image1Caption" />						
 					</div>
 			<!-- Captions for Orbit -->
-					<span class="orbit-caption" id="image1Caption">Mimoza Thaqi - rruga drejt një zhvillimi personal motivues</span>
-					<span class="orbit-caption" id="image2Caption">UNË JAM FUQIA - shkalla e parë e suksesit</span>							
+					<span class="orbit-caption" id="image1Caption">UNË JAM FUQIA - shkalla e parë e suksesit</span>							
 				 </td>
 				 <td width="50%"></td>							
 				</tr>
@@ -194,9 +194,9 @@
 			<div class="5grid">
 				<div class="main-row">
 						<div class="4u-first">
-							<h2>About the club</h2>
+							<h2>Për klubin</h2>
 							<img src="<?php echo base_url('assets/css/images/iampower_small.png'); ?>" alt="" class="left" />
-							<p>
+							<p id="pMain">
 								Suksesi qëndron jo vetëm në atë sa din, por edhe në atë cilin e njeh!<br>
 								Krijimi i këtij klubi kërkon një eksperiencë të madhe me programat e tilla, 
 								kërkon përqëndrim dhe punë konstante që të krijohet dicka që nesër tjetrit do t’i shërbej. 
@@ -207,9 +207,9 @@
 											
 						</div>
 						<div class="4u">
-							<h2>About Mimoza Thaqi</h2>							
+							<h2>Kush është Mimoza Thaqi</h2>							
 								<img src="<?php echo base_url('assets/css/images/about_mimoza.jpg'); ?>" alt="" class="left" />
-								<p>
+								<p id="pMain">
 									Hapi i parë drejt suksesit është të kuptojmë që ne jemi të vetmit përgjegjës për jetën tonë.
 									<br>
 									“Rruga drejt suksesit është besimi në vete, në qëllimin tonë dhe në hapat të cilat i ndërmarrim për arritjen e atij qëllimi. 
@@ -219,9 +219,9 @@
 								
 						</div>
 						<div class="4u">
-								<h2>Meet our companies</h2>
+								<h2>Sukseset e deri tanishme</h2>
 								<img src="<?php echo base_url('assets/css/images/sun_logo.png'); ?>" alt=""  />
-								<p>
+								<p id="pMain">
 									Sun and Stars tashmë 10 vjet në tregun e Maqedonisë ështe sinonim i veshjeve kualitative Second hand (të përdorura) të cilat i ofron me çmime jashtëzakonisht të lira. 
 									Si kompani, Sun and Stars, veshjet i importon nga Danimarka dhe ka kontratë shumëvjeçare me kompaninë Trasborg, si perfaqesues i saj për Maqedoni. 
 									Ne shitoret tona ju mund te gjeni veshje për të gjitha grup moshat me çmime shumë të volitshme. Na vizitoni dhe do ngeleni të kënaqur.								
@@ -230,13 +230,13 @@
 					</div>
 				<div>
 					<div class="4u-first" style="text-align: center">
-						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">more</a>
+						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">Kliko për më tepër</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="http://mimozathaqi.com/corona-theme/" target="_blank" class="button">more</a>
+						<a href="http://mimozathaqi.com/corona-theme/" target="_blank" class="button">Kliko për më tepër</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="http://mimozathaqi.com/bizneset-e-mimoza-thaqi/" target="_blank" class="button">visit</a>
+						<a href="http://mimozathaqi.com/bizneset-e-mimoza-thaqi/" target="_blank" class="button">Kliko për më tepër</a>
 					</div>
 				</div>	
 				</div>				

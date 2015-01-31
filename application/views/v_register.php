@@ -18,7 +18,9 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">					
+				<div class="12u-first">
+					<br>				
+					<img src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />					
 					<header id="header">
 						<h1></h1>
 						<nav>
@@ -37,8 +39,8 @@
 			<div class="5grid">
 				<div class="main-row">
 					<div class="12u-first">	
-							<h2>Sign up</h2>	
-							<p>Your sponsor is valid. Please use below form in order to register an account for IAM-Power club.</p>							
+							<!-- <h2>Sign up</h2>	
+							<p>Your sponsor is valid. Please use below form in order to register an account for IAM-Power club.</p> -->							
 							<table>
 								<tr>
 								 <td width="50%"></td>
@@ -373,7 +375,6 @@
 			<div align="center" style="color:#FFFFFF">
 				&copy; 2015 IAM Power Website.
 			</div>
-			
 		</div>
 	<!-- ********************************************************* -->
 	
