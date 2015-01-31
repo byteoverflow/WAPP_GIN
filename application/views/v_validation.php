@@ -17,7 +17,7 @@
 		<div id="header-wrapper">
 			<div class="5grid">
 				<div class="12u-first">	
-					<img style="margin: 1.0% 0 1.0% 0;" src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />				
+					<img style="margin: 1.0% 0 1.0% 0; float: left" src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />				
 					<header id="header">
 						<h1></h1>
 						<nav>
