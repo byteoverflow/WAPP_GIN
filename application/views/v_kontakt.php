@@ -98,7 +98,7 @@
 								</table>
 								</form>
 							</div>							
-							<div style="float: right">
+							<div style="float:right; width: 50% "">
 								<h2>Hyrje në llogarinë tuaj</h2>
 								<br>
 								<table>
