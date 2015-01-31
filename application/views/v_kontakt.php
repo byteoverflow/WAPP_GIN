@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
 		<!--[if IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/style-ie9.css'); ?>" /><![endif]-->
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/formsStyle.css'); ?>" />
-		<link rel="stylesheet" href="<?php echo base_url('assets/css/loginFormStyle.css'); ?>" />
 	</head>
 	<body>
 	<!-- ********************************************************* -->
@@ -99,9 +98,12 @@
 								</form>
 							</div>							
 							<div style="float:right; width: 50% "">
-								<h2>Hyrje në llogarinë tuaj</h2>
-								<br>
 								<table>
+								<tr>
+									<td width="50%"></td>
+									<td><h2>Hyrje në llogarinë tuaj</h2></td>
+									<td width="50%"></td>
+								</tr>
 								<tr>
 								 <td width="50%"></td>
 								 <td>						 	
@@ -141,7 +143,7 @@
 									<td width="50%"> </td>									
 								</tr>						
 							</table>
-							</div>				
+						</div>				
 					</div>
 				</div>
 			</div>
