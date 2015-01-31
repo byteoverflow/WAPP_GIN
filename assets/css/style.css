@@ -481,7 +481,7 @@
 			background-image: -o-linear-gradient(top, #008ead, #007b9d);
 			background-image: linear-gradient(top, #008ead, #007b9d);
 			height: 86px;
-			width: 900px;
+			width: 700px;
 			float:right;
 		}
 
@@ -627,8 +627,7 @@
 
 		#footer-wrapper {
 			padding: 5% 0 5% 0;
-			
-			position:fixed;
+
     		bottom:0px;
     		left:0px;
     		right:0px;
