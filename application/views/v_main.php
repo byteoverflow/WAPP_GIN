@@ -113,12 +113,13 @@
 		}
 		#boxes #dialog {
 		  width: 1200px; 
-		  height:600px;
+		  height:615px;
 		  padding:10px;
 		  color: #000000;
 		  background-color:#FFFFFF;
 		  font-family: "Century Gothic";
-		  font-size: 15px;
+		  line-height: 1.4em;
+		  font-size: 12.5px;
 		}
 		</style>
 	</head>
