@@ -6,7 +6,7 @@
 /*********************************************************************************/
 
 	body {
-		font-size: 13.5pt;
+		font-size: 12.0pt;
 		font-family: sans-serif;
 		background-color: #FFFFFF;
 		font-family:'Century Gothic', 'sans-serif';
@@ -220,7 +220,7 @@
 
 		#header {
 			position: relative;
-			margin: 2.5% 0 2.5% 0;
+			margin: 1.0% 0 1.0% 0;
 			padding: 0 40px 0 40px;
 			/*border-radius: 10px;*/
 			border: solid 1px #006e8b;
@@ -235,6 +235,7 @@
 			height: 86px;
 			width: 900px;
 			float:right;
+
 		}
 		
 		
@@ -263,9 +264,9 @@
 				right: 40px;
 				top: 1px;
 				line-height: 84px;
-				text-transform: lowercase;
-				font-size: 1.3em;
-				letter-spacing: -1px;
+				/*text-transform: lowercase;*/
+				font-size:medium;	
+				/*letter-spacing: -1px;*/
 			}
 			
 			#header nav a {
@@ -467,9 +468,9 @@
 
 		#header {
 			position: relative;
-			margin: 3.5% 0 1.5% 0;
+			margin: 1.0% 0 1.0% 0;
 			padding: 0 40px 0 40px;
-			border-radius: 10px;
+			/*border-radius: 10px;*/
 			border: solid 1px #006e8b;
 			box-shadow: inset 0px 0px 0px 1px #12a0bf, 0px 1px 4px 0px rgba(0,0,0,0.10);
 			background-color: #007b9d;
@@ -480,6 +481,8 @@
 			background-image: -o-linear-gradient(top, #008ead, #007b9d);
 			background-image: linear-gradient(top, #008ead, #007b9d);
 			height: 86px;
+			width: 900px;
+			float:right;
 		}
 
 			#header h1 {
@@ -502,9 +505,9 @@
 				right: 40px;
 				top: 1px;
 				line-height: 84px;
-				text-transform: lowercase;
-				font-size: 1.1em;
-				letter-spacing: -1px;
+				/*text-transform: lowercase;*/
+				font-size:medium;	
+				/*letter-spacing: -1px;*/
 			}
 			
 			#header nav a {
@@ -742,7 +745,7 @@
 			}
 
 			#header nav {
-				text-transform: lowercase;
+				/*text-transform: lowercase;*/
 				font-size: 1em;
 				margin: 0 auto;
 			}
