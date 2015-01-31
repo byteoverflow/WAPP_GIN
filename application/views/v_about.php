@@ -20,11 +20,12 @@
 					<header id="header">
 						<h1></h1>
 						<nav>
-							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>" class="current-page-item">About</a>
-							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
-							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
+							<a href="<?php echo base_url('index.php/main/index'); ?>">FILLIMI</a>
+							<a href="<?php echo base_url('index.php/main/about'); ?>" class="current-page-item">PËR KLUBIN</a>
+							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
+							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
+							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQs</a>
+							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">KONTAKT</a>
 						</nav>
 					</header>
 				</div>

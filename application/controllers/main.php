@@ -17,12 +17,25 @@ class Main extends CI_Controller {
 		$this->load->view('v_about');
 	}
 	
-	public function join(){
-		$this->load->view('v_join');
+	public function training(){
+		$this->load->view('v_training');
+	}
+	
+	public function publications(){
+		$this->load->view('v_main');
 	}
 	
 	public function faqs(){
 		$this->load->view('v_faqs');
+	}
+	
+	public function kontakt(){
+		$this->load->view('v_kontakt');
+	}
+	
+	
+	public function join(){
+		$this->load->view('v_join');
 	}
 	
 	public function contact(){

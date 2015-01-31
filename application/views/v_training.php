@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - Sponsor Validation</title>
+		<title>GIAM Power - Faqs</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -16,34 +16,39 @@
 	<!-- ********************************************************* -->
 		<div id="header-wrapper">
 			<div class="5grid">
-				<div class="12u-first">					
+				<div class="12u-first">
+					
 					<header id="header">
 						<h1></h1>
 						<nav>
 							<a href="<?php echo base_url('index.php/main/index'); ?>">FILLIMI</a>
 							<a href="<?php echo base_url('index.php/main/about'); ?>">PËR KLUBIN</a>
-							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
+							<a href="<?php echo base_url('index.php/main/training'); ?>" class="current-page-item">TRAJNIME</a>
 							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
 							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQs</a>
 							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">KONTAKT</a>
 						</nav>
-					</header>	
+					</header>				
+				
 				</div>
 			</div>
 		</div>
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="12u-first">						
-						
-						<section>
-							<h2>SPONSOR VALIDATION FAILED</h2>
-							<p>Your sponsor association code OR E-mail was not valid. Please use the correct association code OR email of IAM Power Associate/Member who invated you to join the IAM Power Club.</p>
-						</section>
+					<div class="12u-first">	
+							<h2>SË SHPEJTI do të pubikohen të rrejat rreth trajnimeve</h2>	
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>
+		<!-- <div id="footer-wrapper">
+			
+			<div align="center" style="color:#FFFFFF">
+				&copy; 2015 IAM Power Website.
+			</div>
+			
+		</div> -->
 	<!-- ********************************************************* -->
 	</body>
 </html>
