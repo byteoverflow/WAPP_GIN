@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>GIAM Power - Faqs</title>
+		<title>IAM Power - TRAJNIME</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />

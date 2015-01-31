@@ -11,7 +11,7 @@
 		background-color: #FFFFFF;
 		font-family:'Century Gothic', 'sans-serif';
 		color: #878e83;
-		letter-spacing: -1px;
+		/*letter-spacing: -1px;*/
 	}
 
 	h1,h2,h3,h4 {
@@ -301,7 +301,7 @@
 			
 			
 			#sideMenu {
-				padding: 0 30px 0 30px;			
+				padding: 0 10px 0 10px;			
 				border: solid 1px #007294;			
 				background-color: #007294;
 				color: #fff;
@@ -311,7 +311,7 @@
 				background-image: -ms-linear-gradient(top, #007294, #007294);
 				background-image: -o-linear-gradient(top, #007294, #007294);
 				background-image: linear-gradient(top, #007294, #007294);
-				width: 210px;
+				width: 240px;
 				height: 350px;
 				border-radius: 5px;
 			}
@@ -580,7 +580,7 @@
 			}
 			
 			#sideMenu {
-					padding: 0 30px 0 30px;			
+					padding: 0 10px 0 10px;			
 					border: solid 1px #007294;			
 					background-color: #007294;
 					color: #fff;
@@ -590,7 +590,7 @@
 					background-image: -ms-linear-gradient(top, #007294, #007294);
 					background-image: -o-linear-gradient(top, #007294, #007294);
 					background-image: linear-gradient(top, #007294, #007294);
-					width: 210px;
+					width: 240px;
 					height: 350px;
 					border-radius: 5px;
 				}
@@ -812,7 +812,7 @@
 		}
 		
 		#sideMenu {
-				padding: 0 30px 0 30px;			
+				padding: 0 10px 0 10px;			
 				border: solid 1px #007294;			
 				background-color: #007294;
 				color: #fff;
@@ -822,7 +822,7 @@
 				background-image: -ms-linear-gradient(top, #007294, #007294);
 				background-image: -o-linear-gradient(top, #007294, #007294);
 				background-image: linear-gradient(top, #007294, #007294);
-				width: 210px;
+				width: 240px;
 				height: 350px;
 				border-radius: 5px;
 			}

@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>IAM Power - Faqs</title>
+		<title>IAM Power - KONTAKT</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />

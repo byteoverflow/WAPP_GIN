@@ -39,8 +39,12 @@
 				<div class="main-row">
 					<div class="12u-first">	
 						<section>
-							<h2>ACCOUNT REGISTRATION COMPLETED SUCCESSFULLY</h2>
-							<p>Congratulations!!! Your registration process has completed successfully. Message with login details is sent to your email. <br> Please use the login page to sign into your account and enjoy the opportunities of the IAM-Power club.</p>
+							<h2>REGJISTRIMI I LLOGARISË TUAJ ËSHTË I SUKSESSHËM</h2>
+							<p>
+								Procesi juaj i regjistrimit është kryer me sukses. Llogaria juaj do të aktivizohet në momentin që pagesa juaj është e konfirmuar. 
+								<br>
+								Një mesazh me detajet e qasjes në llogari është dërguar në e-mail adresën  tuaj. Ju lutem shfrytëzoni faqen e qasjes që të aksesoni llogarinë tuaj dhe rishikoni mundësitë  të cilat Ju ofron klubi Unë Jam Fuqia.
+							</p>
 						</section>
 					</div>
 				</div>

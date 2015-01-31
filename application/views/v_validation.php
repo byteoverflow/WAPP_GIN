@@ -36,11 +36,12 @@
 		<div id="main">
 			<div class="5grid">
 				<div class="main-row">
-					<div class="12u-first">						
-						
+					<div class="12u-first">
 						<section>
-							<h2>SPONSOR VALIDATION FAILED</h2>
-							<p>Your sponsor association code OR E-mail was not valid. Please use the correct association code OR email of IAM Power Associate/Member who invated you to join the IAM Power Club.</p>
+							<h2>VALIDIMI I SPONZORIMIT DËSHTOI</h2>
+							<p>
+								Kodi Juaj ftesë ose E-maili i sponsorit tuaj nuk është valid. Ju lutem, shfrytëzoni Kodin Ftesë të saktë apo e-mail adresën e saktë të personit i cili Ju ftoi të bashkangjiteni në klubin Unë Jam Fuqia.
+							</p>
 						</section>
 					</div>
 				</div>
