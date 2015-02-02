@@ -70,7 +70,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->join();
+			$this->kontakt();
 		}
 	}
 	
@@ -149,11 +149,17 @@ class Main extends CI_Controller {
 			//LOAD SUCCESSFULLY CREATED ACCOUNT VIEW
 				
 			}
-			
+			else 
+			{
+				$data['accountExists'] = '*Your username/email is already registered.';
+				$data['sponsorCode'] = $_POST['sponsorCode'];
+				$data['sponsorEmail'] = $_POST['sponsorEmail'];
+				$this->load->view('v_register', $data);	
+			}
 		}
 		else 
-		{
-			$this->join();
+		{	
+			$this->load->view('v_kontakt');
 		}
 	}
 
@@ -223,7 +229,7 @@ class Main extends CI_Controller {
 		}		
 		else 
 		{
-			$this->login();
+			$this->kontakt();
 		}
 	}
 	

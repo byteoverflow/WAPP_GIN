@@ -52,9 +52,26 @@ class M_Main extends CI_Model
 			}
 		}
 		
+		public function isUserRegistered($email)
+		{
+			$query = $this->db->query("SELECT * FROM tbl_accounts WHERE username='" . $email ."'");
+			if($query->num_rows() > 0)
+			{
+				return TRUE;
+			}
+			else
+			{
+				return FALSE;
+			}
+			
+		}
+		
 		public function createUserAndAccount($firstName, $lastName, $birthday, $gender, $country, $city, $address, $phone, $email, $password, $sponsorCode, $sponsorEmail)
 		{
-			$memberId = uniqid('', TRUE);
+			
+			if($this->isUserRegistered($email) == FALSE)
+			{
+					$memberId = uniqid('', TRUE);
 		//ADD USER INFORMATION TO DB	
 			$memberData = array(
 						   'member_id' =>  $memberId,
@@ -115,7 +132,14 @@ class M_Main extends CI_Model
 						
 			$this->db->insert('tbl_sponsors', $sponsorData);
 			
-			return TRUE;
+			return TRUE;	
+				
+			}
+			else
+			{
+				return FALSE;
+			}
+		
 		}
 		
 		

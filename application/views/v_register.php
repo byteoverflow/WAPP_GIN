@@ -42,6 +42,20 @@
 							<p>Your sponsor is valid. Please use below form in order to register an account for IAM-Power club.</p> -->							
 							<table>
 								<tr>
+									<td width="50%"></td>
+									<td>
+										<p style="font-size: 14px; color: #E13300">
+											<?php 
+												if(isset($accountExists))
+												{
+													echo $accountExists;
+												}
+											?>
+										</p>
+									</td>
+									<td width="50%"></td>
+								</tr>
+								<tr>
 								 <td width="50%"></td>
 								 <td>						 	
 								 	<form class="form2" action="<?php echo base_url('index.php/main/submit'); ?>" method="post">
@@ -343,7 +357,7 @@
 									<div class="inputtext">Email: </div>
 									<div class="inputcontent">					
 										<input type="email" name="txtEmail" placeholder="mail@somedomain.com" required="required" />
-										<p style="font-size: 14px; color: #008DAB">*Enter VALID email address, since your email is used as login name for IAM-Power club.</p>
+										<p style="font-size: 14px; color: #008DAB">*Enter VALID email address, since your email is used as login name for IAM-Power club.</p>										
 									</div>
 								</div>
 								
@@ -354,8 +368,18 @@
 										<input type="password" id="txtPasswordConfirm" name="txtPasswordConfirm" placeholder="Confirm Password" required="required" />
 									</div>
 								</div>
-								<input type="hidden" name="sponsorCode" value="<?php echo $sponsorCode; ?>" />
-								<input type="hidden" name="sponsorEmail" value="<?php echo $sponsorEmail; ?>" />
+								<input type="hidden" name="sponsorCode" value="<?php  
+								if(isset($sponsorCode))
+								{
+									echo $sponsorCode;
+								}
+								?>" />
+								<input type="hidden" name="sponsorEmail" value="<?php 
+								if(isset($sponsorEmail))
+								{
+									echo $sponsorEmail; 
+								}
+								?>" />
 									
 								<div class="buttons">					
 									<input class="orangebutton" type="submit" value="Create account" />					
