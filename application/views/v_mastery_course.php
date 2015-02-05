@@ -40,7 +40,7 @@
 					<div class="4u-first">
 						<div id="sideMenu">
 							<nav>			
-								<img src="<?php echo base_url('assets/css/images/calendar.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/events') ?>">Lajme/Evete</a><br>
+								<img src="<?php echo base_url('assets/css/images/calendar.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/events') ?>">Lajme/Evente</a><br>
 								<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/mastery') ?>">Kursi Themelor i Suksesit</a><br>
 								<img src="<?php echo base_url('assets/css/images/audio.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/development') ?>">Mjeshtrimi i Bazave</a><br>
 								<img src="<?php echo base_url('assets/css/images/video.png'); ?>" alt="" height="30" width="30">&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('index.php/main/webinars') ?>">Video</a><br>
