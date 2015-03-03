@@ -180,7 +180,8 @@
 				 <td width="50%"></td>
 				 <td>
 					<div id="featured"> 
-						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>"  alt="Image not found" data-caption="#image1Caption" />						
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide1.jpg'); ?>"  alt="Image not found" data-caption="#image1Caption" />
+						<img src="<?php echo base_url('assets/orbitSlider/images/slide2.jpg'); ?>"  alt="Image not found" data-caption="#image2Caption" />						
 					</div>
 			<!-- Captions for Orbit -->
 					<!-- <span class="orbit-caption" id="image1Caption">UNË JAM FUQIA - shkalla e parë e suksesit</span>							 -->
