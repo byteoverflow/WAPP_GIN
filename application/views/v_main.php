@@ -234,10 +234,10 @@
 						<a href="<?php echo base_url('index.php/main/about') ?>" class="button">Kliko për më tepër</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="http://mimozathaqi.com/corona-theme/" target="_blank" class="button">Kliko për më tepër</a>
+						<a href="http://mimozathaqi.com/" target="_blank" class="button">Kliko për më tepër</a>
 					</div>
 					<div class="4u" style="text-align: center">
-						<a href="http://mimozathaqi.com/bizneset-e-mimoza-thaqi/" target="_blank" class="button">Kliko për më tepër</a>
+						<a href="http://mimozathaqi.com/index.php/features/sistemi-i-biznesit" target="_blank" class="button">Kliko për më tepër</a>
 					</div>
 				</div>	
 				</div>				
