@@ -62,7 +62,6 @@
 						<section class="right-content">
 								<table style="border-collapse: collapse">
 									<tr>
-										<td align="center" bgcolor="#007294"  style="border: 1px solid #999; padding: 0.5rem; color:#FFFFFF">Member ID</td>
 										<td align="center" bgcolor="#007294"  style="border: 1px solid #999; padding: 0.5rem; color:#FFFFFF">Name</td>
 										<td align="center" bgcolor="#007294"  style="border: 1px solid #999; padding: 0.5rem; color:#FFFFFF">Surname</td>
 										<td align="center" bgcolor="#007294"  style="border: 1px solid #999; padding: 0.5rem; color:#FFFFFF">Country</td>
@@ -76,7 +75,6 @@
 										foreach ($members as $member)
 									    {
 									   		echo '<tr>';
-												echo '<td align="center" style="border: 1px solid #999; padding: 0.5rem;">'. $member->member_id . '</td>';
 												echo '<td align="center" style="border: 1px solid #999; padding: 0.5rem;">'. $member->firstName . '</td>';
 												echo '<td align="center" style="border: 1px solid #999; padding: 0.5rem;">'. $member->lastName . '</td>';
 												echo '<td align="center" style="border: 1px solid #999; padding: 0.5rem;">'. $member->country . '</td>';
