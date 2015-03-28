@@ -26,7 +26,8 @@
 							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
 							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
 							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQS</a>
-							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">KONTAKT</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>">RREGJISTRIM NE KLUB</a>
+							<!-- <a href="<?php echo base_url('index.php/main/kontakt'); ?>">HYRJE PËR ANTARËT</a> -->
 							<a href="<?php echo base_url('index.php/main/logout'); ?>">DALJE</a>
 						</nav>
 					</header>
@@ -64,23 +65,21 @@
 								{
 									$mediaDir = $_SERVER['DOCUMENT_ROOT']."/assets/media/$x/DevelopmentSeries";
 									$mediaUrl = base_url('assets/media/'.$x.'/DevelopmentSeries');
-									
+
 									foreach(glob("$mediaDir/*.mp3") as $file) 
 									{
-										//CREATE MEDIA ON WEB
-										$filename = basename($file);
-										echo $filename . "<br><br>";
-										echo '											
-											 <audio preload="metadata" controls>
-												  <source src="/assets/media/'.$x.'/DevelopmentSeries/'.$filename.'" type="audio/mpeg">													
-											</audio> <br>';
-											
-										//DOWNLOAD MEDIA 
-										$downloadButton = base_url('assets/css/images/download.png');
-										$downloadFile = $mediaUrl."/".$filename;											
-										echo '<br>
-									   <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br><br><br>';									
 										
+										$filename = basename($file);
+										echo $filename . "<br>";	
+										
+										$downloadButton = base_url('assets/css/images/download.png');
+										$playButton = base_url('assets/css/images/play.png');
+										$downloadFile = $mediaUrl."/".$filename;	
+										 									
+										 echo '<br>
+										<a href="#" onclick="window.open('."'audioPlayer/?audioFile=".$downloadFile."', 'AudioPlayer', 'width=350,height=250,location=no,scrollbars=no,status=no,toolbar=no,resizable=no'".' )"><img src="'.$playButton.'"></a>
+									    <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br>';
+										echo '<hr>';
 									}									
 								}
 							?>

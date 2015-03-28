@@ -20,15 +20,17 @@
 		<div id="header-wrapper">
 			<div class="5grid">
 				<div class="12u-first">
-					
+				<img style="margin: 1.0% 0 1.0% 0; float: left" src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />
 					<header id="header">
 						<h1></h1>
 						<nav>
-							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/join') ?>">Join Now</a>
-							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>" class="current-page-item">Members Login</a>
+							<a href="<?php echo base_url('index.php/main/index'); ?>">FILLIMI</a>
+							<a href="<?php echo base_url('index.php/main/about'); ?>">PËR KLUBIN</a>
+							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
+							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
+							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQS</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>">RREGJISTRIM NE KLUB</a>
+							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">HYRJE PËR ANTARËT</a>
 						</nav>
 					</header>				
 				
@@ -43,8 +45,8 @@
 								<tr>
 								 <td width="50%"></td>
 								 <td>						 	
-								 	<form class="form1" action="<?php echo base_url('index.php/main/content'); ?>" method="post">
-										<div class="formtitle">Login to your account</div>				
+								 	<form class="form1" action="<?php echo base_url('index.php/main/sitemaster'); ?>" method="post">
+										<div class="formtitle">Admin login</div>				
 										<div class="input">
 											<div class="inputtext">Username: </div>
 											<div class="inputcontent">				

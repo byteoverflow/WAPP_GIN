@@ -27,7 +27,8 @@
 							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
 							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
 							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQS</a>
-							<a href="<?php echo base_url('index.php/main/kontakt'); ?>" class="current-page-item">KONTAKT</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>">RREGJISTRIM NE KLUB</a>
+							<a href="<?php echo base_url('index.php/main/kontakt'); ?>" class="current-page-item">HYRJE PËR ANTARËT</a>
 						</nav>
 					</header>				
 				
@@ -38,66 +39,6 @@
 			<div class="5grid">
 				<div class="main-row">
 					<div class="12u-first">	
-							<div style="float: left; width: 50% ">
-								<h2>Bashkangjitu klubit UNË JAM FUQIA</h2>
-								<br>
-								<p>
-									Bashkangjitja në klubin UNË JAM FUQIA bëhet vetëm perms ftesës nga një anëtar tjetër. 
-									Patjetër të jnei të “sponsoruar” nga një anëtar/bashkëpuntor egzistues. 
-									Ju lutem shtoni në pjesën poshtë Kodin Ftesë ose E – mail adersën e anëtarot i cili Ju ftoi/rekomandoi klubin UNË JAM FUQIA. 
-								</p>
-								<br>
-								<h3 style="color:#B3B4BD">INFORMACIONE TË SPONSORIMIT</h3>								
-								<form action="<?php echo base_url('index.php/main/register'); ?>" method="post">
-									<table>
-									<tr>
-									 <td width="50%"><h4>Kodi i anëtarit që ju rekomandoi</h4></td>
-									 <td>						 	
-									 </td>
-									 <td width="50%"><h4>Opcioni i e-mail adresës</h4></td>							
-									</tr>
-									
-									<tr>
-									 <td width="50%">Shtoni kodin e anëtarit i cili Ju referoi.</td>
-									 <td>						 	
-									 							 	
-									 </td>
-									 <td width="50%">Në qoftë nuk e keni Kodin Ftesë të personit që Ju rekomandoi, Ju lutem shënoni e-mail adresën e personit i cili Ju rekomandoi. Ju lutem, mos shënoni e-mail adresën Tuaj.</td>							
-									</tr>
-									
-									<tr style="height: 20px">
-									 <td></td>
-									 <td>			 	
-									 </td>
-									 <td></td>							
-									</tr>
-									
-									<tr>
-									 <td width="50%"><input type="text" name="txtAssociationCode" style="height: 20px; width: 250px"  /></td>
-									 <td>						 	
-									 							 	
-									 </td>
-									 <td width="50%"><input type="text" name="txtEmail" style="height: 20px; width: 250px"  /></td>							
-									</tr>
-									
-									<tr style="height: 20px">
-									 <td></td>
-									 <td>			 	
-									 </td>
-									 <td></td>							
-									</tr>
-									
-									<tr>
-									 <td>
-									 	<input type="submit" value="Next" class="button"/>
-									 </td>
-									 <td></td>
-									 <td></td>							
-									</tr>					
-								</table>
-								</form>
-							</div>							
-							<div style="float:right; width: 50% "">
 								<table>
 								<tr>
 									<td width="50%"></td>
@@ -143,7 +84,6 @@
 									<td width="50%"> </td>									
 								</tr>						
 							</table>
-						</div>				
 					</div>
 				</div>
 			</div>

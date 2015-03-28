@@ -26,7 +26,8 @@
 							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
 							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
 							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQS</a>
-							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">KONTAKT</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>">RREGJISTRIM NE KLUB</a>
+							<!-- <a href="<?php echo base_url('index.php/main/kontakt'); ?>">HYRJE PËR ANTARËT</a> -->
 							<a href="<?php echo base_url('index.php/main/logout'); ?>">DALJE</a>
 						</nav>
 					</header>
@@ -70,17 +71,16 @@
 										//CREATE MEDIA ON WEB
 										$filename = basename($file);
 										echo $filename . "<br>";
-										// echo '											
-											 // <embed src="/assets/media/'.$x.'/LegacyEducation/'.$filename.'" width=640 height=320>
-											 // ';
+										
 											
 										//DOWNLOAD MEDIA 
 										$downloadButton = base_url('assets/css/images/download.png');
 										$readButton = base_url('assets/css/images/read.png');
-										$downloadFile = $mediaUrl."/".$filename;											
+										$downloadFile = $mediaUrl."/".$filename;	
 										echo '<br>
 										<a href="'.$downloadFile.'"  target="_blank"><img src="'.$readButton.'"></a>
-									    <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br><br><br>';									
+									    <a href="'.$downloadFile.'" download><img src="'.$downloadButton.'"></a> <br>';
+										echo '<hr>';									
 										
 									}									
 								}

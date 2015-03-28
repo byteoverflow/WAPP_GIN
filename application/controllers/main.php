@@ -34,21 +34,26 @@ class Main extends CI_Controller {
 	}
 	
 	
-	// public function join(){
-		// $this->load->view('v_join');
-	// }
+	public function join(){
+		$this->load->view('v_join');
+	}
 	
 	public function contact(){
 		$this->load->view('v_contact');
 	}
 	
-	// public function login(){
-		// $this->load->view('v_login');
-	// }
+	public function masterlogin(){
+		$this->load->view('v_login');
+	}
 	
 	public function logout(){
 		$this->session->sess_destroy();
 		$this->kontakt();
+	}
+	
+	public function logout2(){
+		$this->session->sess_destroy();
+		$this->index();
 	}
 	
 	public function register(){
@@ -70,7 +75,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->kontakt();
+			$this->join();
 		}
 	}
 	
@@ -162,7 +167,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{	
-			$this->load->view('v_kontakt');
+			$this->load->view('v_join');
 		}
 	}
 
@@ -236,6 +241,153 @@ class Main extends CI_Controller {
 		}
 	}
 	
+	public function sitemaster(){
+			
+		if(isset($_POST["txtUsername"]) && isset($_POST["txtPassword"]))
+  		{  				
+			$this->m_main->validateAdmin($_POST["txtUsername"], $_POST["txtPassword"]);
+			
+			if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+			{
+				$this->sitemaster2();
+			}
+			else
+			{
+				$data['invalidLogin'] = '*Invalid login. Please try again!';				
+				$this->load->view('v_login', $data);
+			}
+		}		
+		else 
+		{
+			$this->masterlogin();
+		}
+	}
+	
+	public function sitemaster2()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$this->allmembers();
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function allmembers()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$data['members'] = $this->m_main->getAllMembers();
+			$this->load->view('v_allMembers', $data);
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function activemembers()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$data['members'] = $this->m_main->getActiveMembers();
+			$this->load->view('v_activeMembers', $data);
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function disabledmembers()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$data['members'] = $this->m_main->getDisabledMembers();
+			$this->load->view('v_disabledMembers', $data);
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function changelevel()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$data['members'] = $this->m_main->getAllMembers();
+			$this->load->view('v_changeLevel', $data);
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function deletemember()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$data['members'] = $this->m_main->getAllMembers();
+			$this->load->view('v_deleteMember', $data);
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
+	public function checkenabled()
+	{
+		if(isset($_POST["ajaxUserId"]))
+		{
+			$res = $this->m_main->isMemberEnabled($_POST["ajaxUserId"]);
+			if($res != null)
+			{
+				if($res == true)
+				{
+					echo '
+					
+					<input type="radio" name="userStatus" value="true" checked>Enabled
+					<input type="radio" name="userStatus" value="false">Disabled
+					
+					';
+				}
+				else if($res == false)
+				{
+					echo '
+					
+					<input type="radio" name="userStatus" value="true">Enabled
+					<input type="radio" name="userStatus" value="false" checked>Disabled
+					
+					';
+				}
+			}
+		}
+	}
+	
+	public function sendemail()
+	{
+		if($this->session->userdata('logged') == TRUE && $this->session->userdata('accessStatus') == 'admin' )			
+		{
+			$this->load->view('v_sendEmail');
+		}
+		else 
+		{
+			$this->masterlogin();	
+		}	
+		
+	}
+	
 	public function events()
 	{
 		if($this->session->userdata('logged') == TRUE)			
@@ -244,7 +396,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_login');	
+			$this->load->view('v_kontakt');	
 		}		
 	}
 	
@@ -256,7 +408,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_login');	
+			$this->load->view('v_kontakt');	
 		}		
 	}
 	
@@ -268,7 +420,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_login');	
+			$this->load->view('v_kontakt');	
 		}		
 	}
 	
@@ -280,7 +432,7 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_login');	
+			$this->load->view('v_kontakt');	
 		}		
 	}
 	
@@ -292,8 +444,53 @@ class Main extends CI_Controller {
 		}
 		else 
 		{
-			$this->load->view('v_login');	
+			$this->load->view('v_kontakt');	
 		}		
+	}
+	
+	public function audioPlayer()
+	{
+			if(isset($_GET["audioFile"]))
+			{
+				$data['audioFile'] = $_GET["audioFile"];
+				$this->load->view('v_audioPlayer', $data);
+			}			
+	}
+	
+	public function videoPlayer()
+	{
+			if(isset($_GET["videoFile"]))
+			{
+				$data['videoFile'] = $_GET["videoFile"];
+				$this->load->view('v_videoPlayer', $data);
+			}			
+	}
+
+	public function disableMember()
+	{
+			if(isset($_GET["memberid"]))
+			{
+				$this->m_main->disableMember($_GET["memberid"]);
+				$this->activemembers();
+			}	
+	}
+	
+	public function enableMember()
+	{
+			if(isset($_GET["memberid"]))
+			{
+				$this->m_main->enableMember($_GET["memberid"]);
+				$this->disabledmembers();
+			}	
+	}
+	
+	public function removeMember()
+	{
+			if(isset($_GET["memberid"]))
+			{
+				$this->m_main->removeMember($_GET["memberid"]);
+				$this->deletemember();
+			}	
 	}
 
 //end of the Main controller

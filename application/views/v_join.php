@@ -17,17 +17,19 @@
 		<div id="header-wrapper">
 			<div class="5grid">
 				<div class="12u-first">					
+					<img style="margin: 1.0% 0 1.0% 0; float: left" src="<?php echo base_url('assets/css/images/iampower_logo.png'); ?>"  alt="Image not found" />
 					<header id="header">
 						<h1></h1>
 						<nav>
-							<a href="<?php echo base_url('index.php/main/index') ?>">Home</a>
-							<a href="<?php echo base_url('index.php/main/about') ?>">About</a>
-							<a href="<?php echo base_url('index.php/main/join') ?>" class="current-page-item">Join Now</a>
-							<a href="<?php echo base_url('index.php/main/faqs') ?>">FAQs</a>
-							<a href="<?php echo base_url('index.php/main/login') ?>">Members Login</a>
+							<a href="<?php echo base_url('index.php/main/index'); ?>">FILLIMI</a>
+							<a href="<?php echo base_url('index.php/main/about'); ?>">PËR KLUBIN</a>
+							<a href="<?php echo base_url('index.php/main/training'); ?>">TRAJNIME</a>
+							<a href="<?php echo base_url('index.php/main/publications'); ?>">PUBLIKIME</a>
+							<a href="<?php echo base_url('index.php/main/faqs'); ?>">FAQS</a>
+							<a href="<?php echo base_url('index.php/main/join'); ?>"  class="current-page-item">RREGJISTRIM NE KLUB</a>
+							<a href="<?php echo base_url('index.php/main/kontakt'); ?>">HYRJE PËR ANTARËT</a>
 						</nav>
-					</header>				
-				
+					</header>		
 				</div>
 			</div>
 		</div>
@@ -36,64 +38,76 @@
 				<div class="main-row">
 					<div class="12u-first">						
 						
-						<section>
-							<h2>Join the IAM Power Club</h2>
-							<p>Joining the IAM Power Network is by invitation only. You must be "sponsored" by an existing Associate/Member. 
-								Please enter below the <b>associate code OR</b> the <b>email address</b> of the IAM Power Associate/Member who invited you to join the IAM Power Network.</p>														
-						</section>
-						
-						<h3 style="color:#B3B4BD">SPONSORS INFORMATION</h3>
-						<section>
-							<form action="<?php echo base_url('index.php/main/register'); ?>" method="post">
-							<table>
+						<table>
 							<tr>
-							 <td width="50%"><h4>Associate Code Option</h4></td>
-							 <td>						 	
-							 							 	
-							 </td>
-							 <td width="50%"><h4>Email Address Option</h4></td>							
+								<td></td>
+								<td>
+									
+									<h2>Bashkangjitu klubit UNË JAM FUQIA</h2>
+								<br>
+								<p>
+									Bashkangjitja në klubin UNË JAM FUQIA bëhet vetëm perms ftesës nga një anëtar tjetër. 
+									Patjetër të jnei të “sponsoruar” nga një anëtar/bashkëpuntor egzistues. 
+									Ju lutem shtoni në pjesën poshtë Kodin Ftesë ose E – mail adersën e anëtarot i cili Ju ftoi/rekomandoi klubin UNË JAM FUQIA. 
+								</p>
+								<br>
+								<h3 style="color:#B3B4BD">INFORMACIONE TË SPONSORIMIT</h3>								
+								<form action="<?php echo base_url('index.php/main/register'); ?>" method="post">
+									<table>
+									<tr>
+									 <td width="50%"><h4>Kodi i anëtarit që ju rekomandoi</h4></td>
+									 <td>						 	
+									 </td>
+									 <td width="50%"><h4>Opcioni i e-mail adresës</h4></td>							
+									</tr>
+									
+									<tr>
+									 <td width="50%">Shtoni kodin e anëtarit i cili Ju referoi.</td>
+									 <td>						 	
+									 							 	
+									 </td>
+									 <td width="50%">Në qoftë nuk e keni Kodin Ftesë të personit që Ju rekomandoi, Ju lutem shënoni e-mail adresën e personit i cili Ju rekomandoi. Ju lutem, mos shënoni e-mail adresën Tuaj.</td>							
+									</tr>
+									
+									<tr style="height: 20px">
+									 <td></td>
+									 <td>			 	
+									 </td>
+									 <td></td>							
+									</tr>
+									
+									<tr>
+									 <td width="50%"><input type="text" name="txtAssociationCode" style="height: 20px; width: 250px"  /></td>
+									 <td>						 	
+									 							 	
+									 </td>
+									 <td width="50%"><input type="text" name="txtEmail" style="height: 20px; width: 250px"  /></td>							
+									</tr>
+									
+									<tr style="height: 20px">
+									 <td></td>
+									 <td>			 	
+									 </td>
+									 <td></td>							
+									</tr>
+									
+									<tr>
+									 <td>
+									 	<input type="submit" value="Next" class="button"/>
+									 </td>
+									 <td></td>
+									 <td></td>							
+									</tr>					
+								</table>
+								</form>
+									
+									
+								</td>
+								<td></td>
 							</tr>
 							
-							<tr>
-							 <td width="50%">Enter the associate code of the person who referred you.</td>
-							 <td>						 	
-							 							 	
-							 </td>
-							 <td width="50%">If you do not have the associate code of the person who invited you, you can use their email address instead. Please do not enter your personal email address.</td>							
-							</tr>
-							
-							<tr style="height: 20px">
-							 <td></td>
-							 <td>			 	
-							 </td>
-							 <td></td>							
-							</tr>
-							
-							<tr>
-							 <td width="50%"><input type="text" name="txtAssociationCode" style="height: 20px; width: 300px"  /></td>
-							 <td>						 	
-							 							 	
-							 </td>
-							 <td width="50%"><input type="text" name="txtEmail" style="height: 20px; width: 300px"  /></td>							
-							</tr>
-							
-							<tr style="height: 20px">
-							 <td></td>
-							 <td>			 	
-							 </td>
-							 <td></td>							
-							</tr>
-							
-							<tr>
-							 <td>
-							 	<input type="submit" value="Next" class="button"/>
-							 </td>
-							 <td></td>
-							 <td></td>							
-							</tr>					
-						</table>
-						</form>			
-						</section>					
+						</table>		
+									
 					</div>
 				</div>
 			</div>

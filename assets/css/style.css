@@ -265,7 +265,7 @@
 				top: 1px;
 				line-height: 84px;
 				/*text-transform: lowercase;*/
-				font-size:medium;	
+				font-size:16px;	
 				/*letter-spacing: -1px;*/
 			}
 			
@@ -273,7 +273,7 @@
 				display: inline-block;
 				text-decoration: none;
 				color: #fff;
-				padding: 0 25px 0 25px;
+				padding: 0 15px 0 15px;
 			}
 			
 			
@@ -506,7 +506,7 @@
 				top: 1px;
 				line-height: 84px;
 				/*text-transform: lowercase;*/
-				font-size:medium;	
+				font-size:16px;	
 				/*letter-spacing: -1px;*/
 			}
 			
@@ -514,7 +514,7 @@
 				display: inline-block;
 				text-decoration: none;
 				color: #fff;
-				padding: 0 20px 0 20px;
+				padding: 0 10px 0 10px;
 			}
 			
 			#header nav a.current-page-item {
